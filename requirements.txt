@@ -1,0 +1,53 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# Vector operations
+pgvector==0.2.4
+numpy==1.26.4
+# scikit-learn==1.4.0
+# AI/ML
+# openai>=1.6.1
+# langchain==0.0.350
+# langchain-openai==0.0.2
+langchain-community==0.0.10
+sentence-transformers>=2.7.0
+transformers>=4.40.0
+torch>=2.2.0
+google-genai>=0.2.0  # Google Gemini API SDK (new)
+google-generativeai>=0.3.0  # Google Gemini API SDK (old, fallback)
+
+# Text processing
+# nltk==3.8.1
+# spacy==3.7.2
+beautifulsoup4==4.12.2  # USED in Data/Crawl directory for HTML parsing
+lxml==4.9.3  # USED with BeautifulSoup4 in crawlers
+
+# Document conversion
+# mammoth==1.6.0
+# python-docx==1.1.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2  # Pin to version compatible with passlib 1.7.4
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.25.2
+# requests==2.31.0 
+# aiofiles==23.2.1 
+# jinja2==3.1.2
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Cho phép cleartext traffic cho localhost và emulator -->
+    <!-- Android emulator sử dụng 10.0.2.2 để truy cập localhost của máy host -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <!-- Cho phép các IP local khác nếu cần (cho physical device) -->
+        <domain includeSubdomains="true">192.168.0.0</domain>
+        <domain includeSubdomains="true">192.168.1.0</domain>
+        <domain includeSubdomains="true">192.168.2.0</domain>
+    </domain-config>
+    
+    <!-- Cho production, có thể thêm base-config để chặn cleartext ở nơi khác -->
+    <!-- Nhưng vì đây là app development, ta cho phép tất cả cho dễ debug -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
+

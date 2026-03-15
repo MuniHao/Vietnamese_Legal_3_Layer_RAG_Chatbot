@@ -1,0 +1,2830 @@
+{
+  "description": "Ground truth cho các câu hỏi test - Tự động tạo từ test results",
+  "version": "2.0",
+  "created_date": "2025-12-11T17:23:23.979313",
+  "source": "Z_Test_After_Update/results",
+  "total_questions": 103,
+  "ground_truth": [
+    {
+      "question_id": "1-1",
+      "original_question_id": 1,
+      "question": "Việt Nam có bao nhiêu tỉnh thành?",
+      "difficulty": "easy",
+      "source_file": "test_questions_1.json",
+      "notes": "Chưa có test results. Source: test_questions_1.json, Difficulty: easy"
+    },
+    {
+      "question_id": "1-2",
+      "question": "Luật Dân sự 2015 có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "expected_category_id": 212,
+      "expected_document_ids": [
+        2741,
+        2753,
+        2740,
+        3442
+      ],
+      "expected_chunk_ids": [
+        "doc_2741_chunk_0",
+        "doc_2753_chunk_0",
+        "doc_2741_chunk_95",
+        "doc_2740_chunk_0",
+        "doc_3442_chunk_4"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu. Các văn bản được cung cấp chủ yếu liên quan đến Luật Thi hành án dân sự và Bộ luật Tố tụng dân sự, Bộ luật Tố tụng hình sự, không đề cập đến hiệu lực của Luật Dân sự 2015.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 62/2015/NĐ-CP Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi hành án dân sự](lawchat://document/2741)\n- [Thông tư liên tịch 11/2016/TTLT-BTP-TANDTC-VKSNDT Quy định một số vấn đề về thủ tục thi hành án dân sự và phối hợp",
+      "expected_citations": [
+        2753,
+        "62/2015/NĐ-CP",
+        "01/2020/TTLT-VKSNDTC",
+        "11/2016/TTLT-BTP",
+        3442,
+        2740,
+        2741
+      ],
+      "notes": "Category IDs: [212, 241], Document IDs: [2741, 2753, 2740, 3442], Difficulty: easy",
+      "original_question_id": 2,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-3",
+      "question": "Độ tuổi kết hôn tối thiểu ở Việt Nam là bao nhiêu?",
+      "difficulty": "easy",
+      "expected_category_id": 141,
+      "expected_document_ids": [
+        1043
+      ],
+      "expected_chunk_ids": [
+        "doc_1043_chunk_2"
+      ],
+      "expected_answer": "Không tìm thấy quy định về độ tuổi kết hôn tối thiểu trong tài liệu được cung cấp.\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 24/2008/QH12 Quốc tịch Việt Nam](lawchat://document/1043)",
+      "expected_citations": [
+        1043
+      ],
+      "notes": "Category IDs: [141], Document IDs: [1043], Difficulty: easy",
+      "original_question_id": 3,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-4",
+      "question": "Thời hạn nộp đơn khởi kiện là bao lâu?",
+      "difficulty": "medium",
+      "expected_category_id": 252,
+      "expected_document_ids": [
+        3494
+      ],
+      "expected_chunk_ids": [
+        "doc_3494_chunk_81",
+        "doc_3494_chunk_85",
+        "doc_3494_chunk_83",
+        "doc_3494_chunk_84",
+        "doc_3494_chunk_87"
+      ],
+      "expected_answer": "Thời hạn nộp đơn khởi kiện (thời hiệu khởi kiện) được quy định tại Điều 116 Luật 93/2015/QH13 Tố tụng hành chính như sau:\n\n1.  **Đối với các trường hợp thông thường:**\n    *   **01 năm** kể từ ngày nhận được hoặc biết được quyết định hành chính, hành vi hành chính, quyết định kỷ luật buộc thôi việc (Điểm a Khoản 2 Điều 116).\n    *   **30 ngày** kể từ ngày nhận được quyết định giải quyết khiếu nại về quyết định xử lý vụ việc cạnh tranh (Điểm b Khoản 2 Điều 116).\n    *   **Từ ngày nhận được thông ",
+      "expected_citations": [
+        "Điều 116",
+        "Điều 122",
+        3494
+      ],
+      "notes": "Category IDs: [252], Document IDs: [3494], Difficulty: medium",
+      "original_question_id": 4,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-5",
+      "question": "Tôi muốn biết quy định về quyền thừa kế của con nuôi",
+      "difficulty": "medium",
+      "expected_category_id": 140,
+      "expected_document_ids": [
+        1037,
+        1038
+      ],
+      "expected_chunk_ids": [
+        "doc_1037_chunk_2",
+        "doc_1037_chunk_3",
+        "doc_1037_chunk_12",
+        "doc_1038_chunk_33",
+        "doc_1037_chunk_8",
+        "doc_1037_chunk_0",
+        "doc_1037_chunk_1",
+        "doc_1037_chunk_6"
+      ],
+      "expected_answer": "Theo Điều 24 khoản 1 của Luật Nuôi con nuôi số 52/2010/QH12, kể từ ngày giao nhận con nuôi, giữa cha mẹ nuôi và con nuôi có đầy đủ các quyền, nghĩa vụ của cha mẹ và con; giữa con nuôi và các thành viên khác của gia đình cha mẹ nuôi cũng có các quyền, nghĩa vụ đối với nhau theo quy định của pháp luật về hôn nhân và gia đình, pháp luật dân sự và các quy định khác của pháp luật có liên quan.\n\nĐiều này có nghĩa là con nuôi có quyền thừa kế tài sản của cha mẹ nuôi như con đẻ theo quy định của pháp lu",
+      "expected_citations": [
+        "19/2011/NĐ-CP",
+        "Điều 24",
+        1037,
+        1038
+      ],
+      "notes": "Category IDs: [140], Document IDs: [1037, 1038], Difficulty: medium",
+      "original_question_id": 5,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-6",
+      "question": "Công ty tôi muốn thành lập chi nhánh ở Hà Nội, cần những thủ tục gì?",
+      "difficulty": "medium",
+      "expected_category_id": 236,
+      "expected_document_ids": [
+        3375,
+        3376
+      ],
+      "expected_chunk_ids": [
+        "doc_3375_chunk_7",
+        "doc_3376_chunk_25",
+        "doc_3375_chunk_9",
+        "doc_3375_chunk_8"
+      ],
+      "expected_answer": "Dựa trên các văn bản pháp luật được cung cấp:\n\nCác văn bản pháp luật được cung cấp (Nghị định 07/2016/NĐ-CP và Nghị định 22/2017/NĐ-CP) quy định về thủ tục thành lập chi nhánh của **thương nhân nước ngoài** hoặc **tổ chức hòa giải thương mại nước ngoài** tại Việt Nam.\n\nKhông tìm thấy quy định trong tài liệu về thủ tục thành lập chi nhánh của công ty Việt Nam.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 07/2016/NĐ-CP Quy định chi tiết Luật Thương mại về Văn phòng đại diện, Chi nhánh của th",
+      "expected_citations": [
+        3376,
+        "07/2016/NĐ-CP",
+        "22/2017/NĐ-CP",
+        3375
+      ],
+      "notes": "Category IDs: [236], Document IDs: [3375, 3376], Difficulty: medium",
+      "original_question_id": 6,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-7",
+      "question": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không?",
+      "difficulty": "medium",
+      "expected_category_id": 158,
+      "expected_document_ids": [
+        1553
+      ],
+      "expected_chunk_ids": [
+        "doc_1553_chunk_7",
+        "doc_1553_chunk_16",
+        "doc_1553_chunk_99",
+        "doc_1553_chunk_18",
+        "doc_1553_chunk_98",
+        "doc_1553_chunk_17",
+        "doc_1553_chunk_164",
+        "doc_1553_chunk_167"
+      ],
+      "expected_answer": "Có. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động.\n\nTheo **Nghị định 145/2020/NĐ-CP**:\n*   **Điểm d khoản 1 Điều 16** quy định: \"Trong quá trình thực hiện hợp đồng lao động, mỗi bên có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước ít nhất 15 ngày\".\n*   Tuy nhiên, có các trường hợp người lao động đơn phương chấm dứt hợp đồng lao động mà không phải báo trước, bao gồm:\n    *   Không được bố trí theo đúng công việc, địa điểm làm việc hoặc không đ",
+      "expected_citations": [
+        "Điều 169",
+        "Điều 16",
+        "Điều 97",
+        "Điều 29",
+        1553,
+        "Điều 31",
+        "Điều 138",
+        "Điều 7",
+        "145/2020/NĐ-CP"
+      ],
+      "notes": "Category IDs: [158], Document IDs: [1553], Difficulty: medium",
+      "original_question_id": 7,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-8",
+      "original_question_id": 8,
+      "question": "Tôi bị tai nạn giao thông, người gây tai nạn bỏ chạy. Tôi cần làm gì?",
+      "difficulty": "hard",
+      "source_file": "test_questions_1.json",
+      "notes": "Chưa có test results. Source: test_questions_1.json, Difficulty: hard"
+    },
+    {
+      "question_id": "1-9",
+      "question": "Căn cứ pháp lý nào quy định về quyền sở hữu trí tuệ đối với phần mềm?",
+      "difficulty": "medium",
+      "expected_category_id": 104,
+      "expected_document_ids": [
+        208,
+        263,
+        234
+      ],
+      "expected_chunk_ids": [
+        "doc_208_chunk_23",
+        "doc_263_chunk_44",
+        "doc_234_chunk_0",
+        "doc_234_chunk_3",
+        "doc_234_chunk_2"
+      ],
+      "expected_answer": "Căn cứ pháp lý quy định về quyền sở hữu trí tuệ đối với phần mềm được tìm thấy trong tài liệu là:\n\n*   **Nghị định 71/2007/NĐ-CP Quy định chi tiết và hướng dẫn thực hiện một số điều của Luật Công nghệ thông tin về công nghiệp công nghệ thông tin:**\n    *   **Điều 29. Quản lý và khai thác kho tài sản trí tuệ phần mềm** quy định: \"Nhà nước giữ quyền sở hữu trí tuệ đối với các sản phẩm phần mềm, nội dung thông tin số do các tổ chức, doanh nghiệp nghiên cứu - phát triển, sản xuất bằng nguồn vốn ngân",
+      "expected_citations": [
+        "24/2020/TT-BTTTT",
+        263,
+        234,
+        "71/2007/NĐ-CP",
+        "Điều 29",
+        "20/2014/TT-BTTTT",
+        208
+      ],
+      "notes": "Category IDs: [104], Document IDs: [208, 263, 234], Difficulty: medium",
+      "original_question_id": 9,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-10",
+      "original_question_id": 10,
+      "question": "Hợp đồng mua bán nhà đất cần có những điều khoản bắt buộc nào?",
+      "difficulty": "hard",
+      "source_file": "test_questions_1.json",
+      "notes": "Chưa có test results. Source: test_questions_1.json, Difficulty: hard"
+    },
+    {
+      "question_id": "1-11",
+      "question": "Tôi là người nước ngoài, muốn mua nhà ở Việt Nam có được không?",
+      "difficulty": "hard",
+      "expected_category_id": 166,
+      "expected_document_ids": [
+        1866
+      ],
+      "expected_chunk_ids": [
+        "doc_1866_chunk_2"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu.\n\n**Các văn bản pháp luật liên quan:**\n- [Thông tư 32/2013/TT-NHNN Hướng dẫn thực hiện quy định hạn chế sử dụng ngoại hối \ntrên lãnh thổ Việt Nam](lawchat://document/1866)",
+      "expected_citations": [
+        "32/2013/TT-NHNN",
+        1866
+      ],
+      "notes": "Category IDs: [166], Document IDs: [1866], Difficulty: hard",
+      "original_question_id": 11,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-12",
+      "question": "Thời hiệu khởi kiện tranh chấp đất đai là bao lâu?",
+      "difficulty": "medium",
+      "expected_category_id": 252,
+      "expected_document_ids": [
+        3494
+      ],
+      "expected_chunk_ids": [
+        "doc_3494_chunk_81",
+        "doc_3494_chunk_84"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu về thời hiệu khởi kiện tranh chấp đất đai.\n\nCác văn bản được cung cấp là \"Luật 93/2015/QH13 Tố tụng hành chính\", quy định về thời hiệu khởi kiện đối với các vụ án hành chính (Điều 116), không phải tranh chấp đất đai nói chung.\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 93/2015/QH13 Tố tụng hành chính](lawchat://document/3494)",
+      "expected_citations": [
+        "Điều 116",
+        3494
+      ],
+      "notes": "Category IDs: [252], Document IDs: [3494], Difficulty: medium",
+      "original_question_id": 12,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-13",
+      "question": "Công ty tôi vi phạm về thuế, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3605,
+        3600,
+        3612,
+        3604,
+        3649
+      ],
+      "expected_chunk_ids": [
+        "doc_3605_chunk_1",
+        "doc_3600_chunk_2",
+        "doc_3612_chunk_1",
+        "doc_3604_chunk_10",
+        "doc_3605_chunk_9",
+        "doc_3649_chunk_50",
+        "doc_3605_chunk_13",
+        "doc_3605_chunk_16"
+      ],
+      "expected_answer": "Công ty bạn, với tư cách là người nộp thuế, sẽ là đối tượng bị xử phạt vi phạm hành chính về thuế nếu có hành vi vi phạm (theo Khoản 2 Điều 1 Nghị định 129/2013/NĐ-CP).\n\nCác hình thức xử phạt cụ thể tùy thuộc vào hành vi vi phạm:\n\n1.  **Đối với hành vi vi phạm các quy định về cung cấp thông tin liên quan đến xác định nghĩa vụ thuế nhưng không thuộc trường hợp khai thiếu thuế, trốn thuế, gian lận thuế:**\n    *   **Phạt tiền từ 400.000 đồng đến 1.000.000 đồng** đối với các hành vi như: cung cấp th",
+      "expected_citations": [
+        3649,
+        "129/2013/NĐ-CP",
+        "127/2013/NĐ-CP",
+        "71/2014/NĐ-CP",
+        "122/2021/NĐ-CP",
+        "Điều 1",
+        3600,
+        3604,
+        3605,
+        "99/2013/NĐ-CP"
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3605, 3600, 3612, 3604, 3649], Difficulty: hard",
+      "original_question_id": 13,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-14",
+      "question": "Quy định về bảo hiểm xã hội cho người lao động tự do",
+      "difficulty": "medium",
+      "expected_category_id": 158,
+      "expected_document_ids": [
+        1552,
+        1059,
+        1571,
+        1558,
+        1553,
+        1572
+      ],
+      "expected_chunk_ids": [
+        "doc_1552_chunk_3",
+        "doc_1059_chunk_3",
+        "doc_1571_chunk_16",
+        "doc_1558_chunk_4",
+        "doc_1553_chunk_101",
+        "doc_1572_chunk_10",
+        "doc_1553_chunk_56",
+        "doc_1553_chunk_85"
+      ],
+      "expected_answer": "Không tìm thấy quy định về bảo hiểm xã hội cho người lao động tự do trong các tài liệu được cung cấp. Các tài liệu chủ yếu đề cập đến bảo hiểm xã hội trong mối quan hệ lao động giữa người sử dụng lao động và người lao động, tuổi nghỉ hưu, và các chế độ bảo hiểm thất nghiệp.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 135/2020/NĐ-CP Quy định về tuổi nghỉ hưu](lawchat://document/1552)\n- [Nghị quyết 05/2019/NQ-HĐTP Hướng dẫn áp dụng Điều 214 về tội gian lận bảo hiểm xã hội, bảo hiểm thất ngh",
+      "expected_citations": [
+        1571,
+        1059,
+        "135/2020/NĐ-CP",
+        "Điều 214",
+        "Điều 216",
+        "05/2019/NQ-HĐTP",
+        1552,
+        1553,
+        "10/2020/TT-BLĐTBXH",
+        "Điều 215"
+      ],
+      "notes": "Category IDs: [158, 142, 160], Document IDs: [1552, 1059, 1571, 1558, 1553, 1572], Difficulty: medium",
+      "original_question_id": 14,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-15",
+      "question": "Tôi muốn ly hôn nhưng vợ/chồng không đồng ý, phải làm sao?",
+      "difficulty": "hard",
+      "expected_category_id": 124,
+      "expected_document_ids": [
+        647,
+        642
+      ],
+      "expected_chunk_ids": [
+        "doc_647_chunk_13",
+        "doc_647_chunk_12",
+        "doc_647_chunk_14",
+        "doc_642_chunk_23",
+        "doc_647_chunk_4",
+        "doc_642_chunk_24",
+        "doc_642_chunk_22"
+      ],
+      "expected_answer": "Nếu bạn muốn ly hôn nhưng vợ/chồng không đồng ý, bạn có thể yêu cầu Tòa án giải quyết ly hôn theo quy định tại **Điều 56 của Luật Hôn nhân và gia đình năm 2014**.\n\nCụ thể, Tòa án sẽ giải quyết cho ly hôn nếu:\n1.  Hòa giải tại Tòa án không thành.\n2.  Có căn cứ về việc vợ, chồng có hành vi bạo lực gia đình hoặc vi phạm nghiêm trọng quyền, nghĩa vụ của vợ, chồng làm cho hôn nhân lâm vào tình trạng trầm trọng, đời sống chung không thể kéo dài, mục đích của hôn nhân không đạt được.\n\n**Các văn bản phá",
+      "expected_citations": [
+        642,
+        "01/2016/TTLT-TANDTC",
+        "Điều 56",
+        647
+      ],
+      "notes": "Category IDs: [124], Document IDs: [647, 642], Difficulty: hard",
+      "original_question_id": 15,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-16",
+      "question": "Điều kiện để được cấp giấy phép kinh doanh là gì?",
+      "difficulty": "medium",
+      "expected_category_id": 234,
+      "expected_document_ids": [
+        3312
+      ],
+      "expected_chunk_ids": [
+        "doc_3312_chunk_8"
+      ],
+      "expected_answer": "Dựa trên Điều 15 của Nghị định 88/2014/NĐ-CP Quy định về dịch vụ xếp hạng tín nhiệm, các điều kiện để được cấp Giấy chứng nhận đủ điều kiện kinh doanh (thể hiện qua hồ sơ đề nghị cấp) bao gồm:\n\n1.  **Vốn điều lệ và cơ cấu cổ đông/thành viên góp vốn:** Vốn điều lệ thực góp phải đáp ứng đủ điều kiện quy định tại Điều 11 Nghị định này và cơ cấu cổ đông hoặc thành viên góp vốn phải đáp ứng điều kiện quy định tại Điều 10 Nghị định này (Khoản 3 Điều 15).\n2.  **Tổng Giám đốc hoặc Giám đốc:** Phải đáp ứ",
+      "expected_citations": [
+        "Điều 21",
+        "88/2014/NĐ-CP",
+        3312,
+        "Điều 10",
+        "Điều 19",
+        "Điều 15",
+        "Điều 11",
+        "Điều 20",
+        "Điều 31"
+      ],
+      "notes": "Category IDs: [234], Document IDs: [3312], Difficulty: medium",
+      "original_question_id": 16,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-17",
+      "question": "Tôi bị sa thải trái pháp luật, có thể yêu cầu bồi thường không?",
+      "difficulty": "hard",
+      "expected_category_id": 254,
+      "expected_document_ids": [
+        3527,
+        3532
+      ],
+      "expected_chunk_ids": [
+        "doc_3527_chunk_9",
+        "doc_3527_chunk_14",
+        "doc_3532_chunk_4",
+        "doc_3527_chunk_8",
+        "doc_3532_chunk_3",
+        "doc_3527_chunk_4",
+        "doc_3532_chunk_6",
+        "doc_3527_chunk_35"
+      ],
+      "expected_answer": "Dựa trên các văn bản pháp luật được cung cấp: Luật 10/2017/QH14 Trách nhiệm bồi thường của nhà nước và Thông tư 02/2023/TT-TANDTC hướng dẫn thi hành Điều 55 của Luật trách nhiệm bồi thường của Nhà nước, các quy định này tập trung vào trách nhiệm bồi thường của Nhà nước đối với thiệt hại do hành vi trái pháp luật của người thi hành công vụ gây ra trong các hoạt động quản lý hành chính, tố tụng hình sự, tố tụng hành chính.\n\nCụ thể, Điều 17 của Luật 10/2017/QH14 liệt kê các trường hợp Nhà nước có t",
+      "expected_citations": [
+        "Điều 17",
+        3527,
+        3532,
+        "Điều 55",
+        "02/2023/TT-TANDTC"
+      ],
+      "notes": "Category IDs: [254], Document IDs: [3527, 3532], Difficulty: hard",
+      "original_question_id": 17,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-18",
+      "original_question_id": 18,
+      "question": "Quy định về quyền sử dụng đất của hộ gia đình",
+      "difficulty": "medium",
+      "source_file": "test_questions_1.json",
+      "notes": "Chưa có test results. Source: test_questions_1.json, Difficulty: medium"
+    },
+    {
+      "question_id": "1-19",
+      "question": "Tôi muốn thành lập doanh nghiệp tư nhân, cần chuẩn bị những gì?",
+      "difficulty": "hard",
+      "expected_category_id": 128,
+      "expected_document_ids": [
+        671,
+        657,
+        667
+      ],
+      "expected_chunk_ids": [
+        "doc_671_chunk_6",
+        "doc_671_chunk_10",
+        "doc_671_chunk_5",
+        "doc_671_chunk_4",
+        "doc_671_chunk_7",
+        "doc_657_chunk_23",
+        "doc_667_chunk_23",
+        "doc_657_chunk_26"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu.\n\nCác văn bản pháp luật được cung cấp (Nghị định 23/2022/NĐ-CP) quy định về việc thành lập, sắp xếp lại, chuyển đổi sở hữu, chuyển giao quyền đại diện chủ sở hữu tại **doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ**, không đề cập đến việc thành lập doanh nghiệp tư nhân.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 23/2022/NĐ-CP Về thành lập, sắp xếp lại, chuyển đổi sở hữu, chuyển giao quyền đại diện chủ sở hữu tại doanh nghiệp do Nhà nước nắm giữ ",
+      "expected_citations": [
+        657,
+        "01/2021/NĐ-CP",
+        667,
+        "23/2022/NĐ-CP",
+        671
+      ],
+      "notes": "Category IDs: [128], Document IDs: [671, 657, 667], Difficulty: hard",
+      "original_question_id": 19,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "1-20",
+      "question": "Hợp đồng lao động không có chữ ký của người lao động có hiệu lực không?",
+      "difficulty": "hard",
+      "expected_category_id": 154,
+      "expected_document_ids": [
+        1318,
+        1626,
+        2310,
+        1553,
+        2841,
+        3443,
+        551
+      ],
+      "expected_chunk_ids": [
+        "doc_1318_chunk_24",
+        "doc_1626_chunk_13",
+        "doc_2310_chunk_146",
+        "doc_1553_chunk_141",
+        "doc_2841_chunk_3",
+        "doc_3443_chunk_15",
+        "doc_551_chunk_5"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu. Các văn bản được cung cấp không đề cập đến hiệu lực của hợp đồng lao động khi không có chữ ký của người lao động.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 08/2014/NĐ-CP Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Khoa học và công nghệ](lawchat://document/1318)\n- [Thông tư 28/2016/TT-BYT hướng dẫn quản lý bệnh nghề nghiệp](lawchat://document/1626)\n- [Thông tư 38/2015/TT-BTC Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan",
+      "expected_citations": [
+        "38/2015/TT-BTC",
+        1318,
+        2310,
+        "28/2016/TT-BYT",
+        1553,
+        2841,
+        1626,
+        "11/2018/TT-BNV",
+        "08/2014/NĐ-CP",
+        "145/2020/NĐ-CP"
+      ],
+      "notes": "Category IDs: [154, 161, 199, 158, 215, 242, 116], Document IDs: [1318, 1626, 2310, 1553, 2841, 3443, 551], Difficulty: hard",
+      "original_question_id": 20,
+      "source_file": "test_questions_1.json"
+    },
+    {
+      "question_id": "2-1",
+      "question": "Nghị định 58/2018/NĐ-CP về bảo hiểm nông nghiệp có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "expected_category_id": 101,
+      "expected_document_ids": [
+        153
+      ],
+      "expected_chunk_ids": [
+        "doc_153_chunk_0"
+      ],
+      "expected_answer": "Nghị định 58/2018/NĐ-CP về bảo hiểm nông nghiệp có hiệu lực từ ngày 05/06/2018.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 58/2018/NĐ-CP về bảo hiểm nông nghiệp](lawchat://document/153)",
+      "expected_citations": [
+        153,
+        "58/2018/NĐ-CP"
+      ],
+      "notes": "Category IDs: [101], Document IDs: [153], Difficulty: easy",
+      "original_question_id": 1,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-2",
+      "question": "Quy định về điều kiện thành lập Quỹ phát triển khoa học là gì?",
+      "difficulty": "easy",
+      "expected_category_id": 154,
+      "expected_document_ids": [
+        1316,
+        1323,
+        1328,
+        1351
+      ],
+      "expected_chunk_ids": [
+        "doc_1316_chunk_54",
+        "doc_1323_chunk_9",
+        "doc_1323_chunk_17",
+        "doc_1316_chunk_52",
+        "doc_1328_chunk_0",
+        "doc_1316_chunk_53",
+        "doc_1328_chunk_2",
+        "doc_1351_chunk_2"
+      ],
+      "expected_answer": "Quy định về điều kiện thành lập Quỹ phát triển khoa học và công nghệ khác nhau tùy thuộc vào loại quỹ:\n\n**1. Đối với Quỹ phát triển khoa học và công nghệ của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, tỉnh, thành phố trực thuộc trung ương:**\n\nTheo **Điều 7 Khoản 1 Nghị định 95/2014/NĐ-CP**, Quỹ được thành lập khi có đủ các điều kiện sau đây:\n*   a) Nhân lực, cơ sở vật chất - kỹ thuật đảm bảo vận hành Quỹ; biên chế sự nghiệp được điều tiết trong phạm vi tổng biên chế sự nghiệp hiện có;\n*   b)",
+      "expected_citations": [
+        "37/2015/QĐ-TTg",
+        "Điều 60",
+        1316,
+        1351,
+        "95/2014/NĐ-CP",
+        1323,
+        1328,
+        "03/2015/TT-BKHCN",
+        "Điều 13",
+        "Điều 62"
+      ],
+      "notes": "Category IDs: [154], Document IDs: [1316, 1323, 1328, 1351], Difficulty: easy",
+      "original_question_id": 2,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-3",
+      "question": "Thông tư 26/2018/TT-NHNN quy định về điều tra thống kê tiền tệ, ngân hàng và ngoại hối được ban hành bởi cơ quan nào?",
+      "difficulty": "easy",
+      "expected_category_id": 215,
+      "expected_document_ids": [
+        2843
+      ],
+      "expected_chunk_ids": [
+        "doc_2843_chunk_0",
+        "doc_2843_chunk_1",
+        "doc_2843_chunk_2",
+        "doc_2843_chunk_3",
+        "doc_2843_chunk_4",
+        "doc_2843_chunk_5",
+        "doc_2843_chunk_6",
+        "doc_2843_chunk_7"
+      ],
+      "expected_answer": "Thông tư 26/2018/TT-NHNN Quy định về điều tra thống kê tiền tệ, ngân hàng và ngoại hối ngoài Chương trình điều tra thống kê quốc gia được ban hành bởi **Ngân hàng Nhà nước Việt Nam**.\n\nCụ thể, \"Thống đốc Ngân hàng Nhà nước Việt Nam ban hành Thông tư quy định về điều tra thống kê tiền tệ, ngân hàng và ngoại hối ngoài Chương trình điều tra thống kê quốc gia.\"\n\n**Các văn bản pháp luật liên quan:**\n- [Thông tư 26/2018/TT-NHNN Quy định về điều tra thống kê tiền tệ, ngân hàng và ngoại hối ngoài \nChươn",
+      "expected_citations": [
+        "26/2018/TT-NHNN",
+        2843
+      ],
+      "notes": "Category IDs: [215], Document IDs: [2843], Difficulty: easy",
+      "original_question_id": 3,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-4",
+      "question": "Tôi muốn thành lập Quỹ phát triển khoa học, cần những điều kiện gì?",
+      "difficulty": "medium",
+      "expected_category_id": 154,
+      "expected_document_ids": [
+        1316,
+        1323,
+        1328
+      ],
+      "expected_chunk_ids": [
+        "doc_1316_chunk_54",
+        "doc_1323_chunk_17",
+        "doc_1316_chunk_55",
+        "doc_1323_chunk_9",
+        "doc_1316_chunk_52",
+        "doc_1328_chunk_0",
+        "doc_1328_chunk_2",
+        "doc_1316_chunk_53"
+      ],
+      "expected_answer": "Để thành lập Quỹ phát triển khoa học và công nghệ của tổ chức, cá nhân, bạn cần tuân thủ các điều kiện và quy định sau:\n\n1.  **Mục đích hoạt động:** Quỹ phải là tổ chức hoạt động không vì mục đích lợi nhuận để tài trợ không hoàn lại, cho vay với lãi suất thấp hoặc không lấy lãi, bảo lãnh vốn vay, phục vụ nhu cầu phát triển khoa học và công nghệ. (Điều 62 Khoản 1 Luật 29/2013/QH13; Điều 13 Khoản 1 Nghị định 95/2014/NĐ-CP)\n\n2.  **Nguồn vốn:** Quỹ được hình thành từ các nguồn sau:\n    *   Vốn đóng ",
+      "expected_citations": [
+        "37/2015/QĐ-TTg",
+        1316,
+        "95/2014/NĐ-CP",
+        1323,
+        1328,
+        "Điều 13",
+        "Điều 62"
+      ],
+      "notes": "Category IDs: [154], Document IDs: [1316, 1323, 1328], Difficulty: medium",
+      "original_question_id": 4,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-5",
+      "original_question_id": 5,
+      "question": "Quy định về quản lý seri tiền mới in của Ngân hàng Nhà nước như thế nào?",
+      "difficulty": "medium",
+      "source_file": "test_questions_2.json",
+      "notes": "Chưa có test results. Source: test_questions_2.json, Difficulty: medium"
+    },
+    {
+      "question_id": "2-6",
+      "question": "Công ty tôi muốn kinh doanh bảo hiểm, cần những thủ tục và điều kiện gì?",
+      "difficulty": "medium",
+      "expected_category_id": 101,
+      "expected_document_ids": [
+        150,
+        151,
+        152
+      ],
+      "expected_chunk_ids": [
+        "doc_150_chunk_8",
+        "doc_151_chunk_4",
+        "doc_152_chunk_4",
+        "doc_151_chunk_49",
+        "doc_151_chunk_29",
+        "doc_150_chunk_129",
+        "doc_150_chunk_116",
+        "doc_151_chunk_43"
+      ],
+      "expected_answer": "Để kinh doanh bảo hiểm, công ty cần có Giấy phép thành lập và hoạt động do Bộ Tài chính cấp và phải đáp ứng các điều kiện cụ thể như sau:\n\n**I. Thủ tục:**\n\n1.  **Giấy phép thành lập và hoạt động:** Doanh nghiệp phải có giấy phép thành lập và hoạt động. Kinh doanh bảo hiểm không có giấy phép hoặc không đúng nội dung giấy phép là hành vi vi phạm pháp luật (Luật 24/2000/QH10, Điều 124 khoản 1).\n2.  **Thẩm quyền cấp giấy phép:** Bộ Tài chính cấp giấy phép thành lập và hoạt động cho doanh nghiệp bảo ",
+      "expected_citations": [
+        "Điều 64",
+        "Điều 63",
+        "73/2016/NĐ-CP",
+        "Điều 10",
+        "Điều 124",
+        150,
+        151,
+        152,
+        "Điều 62",
+        "Điều 7"
+      ],
+      "notes": "Category IDs: [101], Document IDs: [150, 151, 152], Difficulty: medium",
+      "original_question_id": 6,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-7",
+      "question": "Người lao động có quyền được lấy ý kiến trong quá trình xây dựng chương trình, kế hoạch không?",
+      "difficulty": "medium",
+      "expected_category_id": 158,
+      "expected_document_ids": [
+        1553
+      ],
+      "expected_chunk_ids": [
+        "doc_1553_chunk_55",
+        "doc_1553_chunk_87",
+        "doc_1553_chunk_56",
+        "doc_1553_chunk_163"
+      ],
+      "expected_answer": "Người lao động có quyền được tham gia ý kiến vào quá trình xây dựng các nội dung sau:\n*   Xây dựng, sửa đổi, bổ sung nội quy, quy chế và các văn bản quy định khác của người sử dụng lao động liên quan đến quyền, nghĩa vụ và lợi ích của người lao động.\n*   Xây dựng, sửa đổi, bổ sung thang lương, bảng lương, định mức lao động; đề xuất nội dung thương lượng tập thể.\n*   Đề xuất, thực hiện giải pháp tiết kiệm chi phí, nâng cao năng suất lao động, cải thiện điều kiện làm việc, bảo vệ môi trường, phòng",
+      "expected_citations": [
+        1553,
+        "Điều 44",
+        "145/2020/NĐ-CP"
+      ],
+      "notes": "Category IDs: [158], Document IDs: [1553], Difficulty: medium",
+      "original_question_id": 7,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-8",
+      "question": "Tôi là doanh nghiệp, vi phạm quy định về quản lý tài chính trong lĩnh vực khoa học công nghệ, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3626,
+        3689
+      ],
+      "expected_chunk_ids": [
+        "doc_3626_chunk_1",
+        "doc_3626_chunk_12",
+        "doc_3689_chunk_1",
+        "doc_3626_chunk_4",
+        "doc_3626_chunk_3",
+        "doc_3626_chunk_8",
+        "doc_3626_chunk_11",
+        "doc_3626_chunk_2"
+      ],
+      "expected_answer": "Theo Nghị định 51/2019/NĐ-CP Quy định xử phạt vi phạm hành chính trong hoạt động khoa học và công nghệ, chuyển giao công nghệ:\n\n1.  **Đối tượng áp dụng:** Doanh nghiệp là \"tổ chức kinh tế theo quy định của Luật doanh nghiệp\" thuộc đối tượng áp dụng của Nghị định này (Điều 2 khoản 2 điểm b).\n2.  **Mức xử phạt đối với vi phạm quy định về quản lý, sử dụng kinh phí ngân sách nhà nước dành cho hoạt động khoa học và công nghệ (Điều 15):**\n    *   **Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng** đố",
+      "expected_citations": [
+        "Điều 2",
+        3689,
+        3626,
+        "64/2013/NĐ-CP",
+        "51/2019/NĐ-CP",
+        "93/2014/NĐ-CP",
+        "Điều 15",
+        "20/2015/TT-BKHCN"
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3626, 3689], Difficulty: hard",
+      "original_question_id": 8,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-9",
+      "original_question_id": 9,
+      "question": "Căn cứ pháp lý nào quy định về quản lý, vận hành và sử dụng hệ thống thanh toán?",
+      "difficulty": "medium",
+      "source_file": "test_questions_2.json",
+      "notes": "Chưa có test results. Source: test_questions_2.json, Difficulty: medium"
+    },
+    {
+      "question_id": "2-10",
+      "question": "Hợp đồng bảo hiểm nông nghiệp cần có những điều khoản bắt buộc nào?",
+      "difficulty": "hard",
+      "expected_category_id": 101,
+      "expected_document_ids": [
+        151,
+        150
+      ],
+      "expected_chunk_ids": [
+        "doc_151_chunk_6",
+        "doc_151_chunk_9",
+        "doc_150_chunk_10",
+        "doc_150_chunk_18",
+        "doc_150_chunk_77",
+        "doc_150_chunk_117",
+        "doc_151_chunk_8",
+        "doc_151_chunk_12"
+      ],
+      "expected_answer": "Theo Luật Kinh doanh bảo hiểm 08/2022/QH15, hợp đồng bảo hiểm nông nghiệp không được quy định là loại bảo hiểm bắt buộc và không có các điều khoản bắt buộc riêng biệt. Tuy nhiên, là một dạng hợp đồng bảo hiểm, nó phải tuân thủ các quy định chung về nội dung của hợp đồng bảo hiểm.\n\nCụ thể, theo **Điều 17 khoản 1 Luật 08/2022/QH15 Luật Kinh doanh bảo hiểm**, hợp đồng bảo hiểm phải có những nội dung chủ yếu sau đây:\na) Bên mua bảo hiểm, người được bảo hiểm, người thụ hưởng (nếu có), doanh nghiệp bả",
+      "expected_citations": [
+        "Điều 17",
+        "Điều 18",
+        150,
+        151
+      ],
+      "notes": "Category IDs: [101], Document IDs: [151, 150], Difficulty: hard",
+      "original_question_id": 10,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-11",
+      "question": "Tôi là doanh nghiệp nước ngoài, muốn đầu tư vào lĩnh vực khoa học công nghệ ở Việt Nam có được không?",
+      "difficulty": "hard",
+      "expected_category_id": 154,
+      "expected_document_ids": [
+        1323,
+        1316
+      ],
+      "expected_chunk_ids": [
+        "doc_1323_chunk_16",
+        "doc_1316_chunk_55",
+        "doc_1316_chunk_49",
+        "doc_1316_chunk_50",
+        "doc_1323_chunk_15",
+        "doc_1316_chunk_48"
+      ],
+      "expected_answer": "Có, doanh nghiệp nước ngoài có thể đầu tư vào lĩnh vực khoa học và công nghệ tại Việt Nam.\n\nTheo **Điều 12, Khoản 1 của Nghị định 95/2014/NĐ-CP**, Nhà nước khuyến khích tổ chức, cá nhân (bao gồm cả doanh nghiệp nước ngoài) đầu tư cho khoa học và công nghệ tại Việt Nam dưới các hình thức:\n*   Đầu tư trực tiếp.\n*   Liên doanh, liên kết với các tổ chức khoa học và công nghệ, doanh nghiệp của Việt Nam.\n*   Ủy thác đầu tư.\n\nTrong trường hợp này, dự án đầu tư sẽ được hưởng các hình thức ưu đãi theo qu",
+      "expected_citations": [
+        "95/2014/NĐ-CP",
+        1323,
+        1316,
+        "Điều 12"
+      ],
+      "notes": "Category IDs: [154], Document IDs: [1323, 1316], Difficulty: hard",
+      "original_question_id": 11,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-12",
+      "original_question_id": 12,
+      "question": "Thời hạn thực hiện kiểm định kỹ thuật an toàn đối với hệ thống cháy nổ là bao lâu?",
+      "difficulty": "medium",
+      "source_file": "test_questions_2.json",
+      "notes": "Chưa có test results. Source: test_questions_2.json, Difficulty: medium"
+    },
+    {
+      "question_id": "2-13",
+      "question": "Công ty tôi vi phạm quy định về điều kiện bảo đảm an toàn thực phẩm, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3620
+      ],
+      "expected_chunk_ids": [
+        "doc_3620_chunk_41",
+        "doc_3620_chunk_32",
+        "doc_3620_chunk_42",
+        "doc_3620_chunk_26",
+        "doc_3620_chunk_25",
+        "doc_3620_chunk_1",
+        "doc_3620_chunk_31",
+        "doc_3620_chunk_2"
+      ],
+      "expected_answer": "Công ty bạn vi phạm quy định về điều kiện bảo đảm an toàn thực phẩm sẽ bị xử phạt tùy thuộc vào hành vi vi phạm cụ thể, theo Nghị định 115/2018/NĐ-CP, như sau:\n\n1.  **Đối với vi phạm quy định về điều kiện bảo đảm an toàn thực phẩm trong nhập khẩu, xuất khẩu thực phẩm:**\n    *   **Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng** đối với hành vi không thực hiện kiểm tra nhà nước về an toàn thực phẩm theo quy định của pháp luật trong nhập khẩu hoặc xuất khẩu thực phẩm, phụ gia thực phẩm, chất hỗ ",
+      "expected_citations": [
+        "Điều 14",
+        3620,
+        "Điều 2",
+        "Điều 1",
+        "115/2018/NĐ-CP",
+        "Điều 13"
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3620], Difficulty: hard",
+      "original_question_id": 13,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-14",
+      "question": "Quy định về quy trình kỹ thuật dự báo, cảnh báo hiện tượng khí tượng thủy văn",
+      "difficulty": "medium",
+      "expected_category_id": 203,
+      "expected_document_ids": [
+        2501,
+        2502,
+        2521,
+        2550
+      ],
+      "expected_chunk_ids": [
+        "doc_2501_chunk_31",
+        "doc_2501_chunk_25",
+        "doc_2501_chunk_26",
+        "doc_2501_chunk_24",
+        "doc_2501_chunk_16",
+        "doc_2502_chunk_13",
+        "doc_2521_chunk_2",
+        "doc_2550_chunk_12"
+      ],
+      "expected_answer": "Theo Luật 90/2015/QH13 Khí tượng thủy văn:\n\n1.  **Quản lý việc ban hành quy trình:** Nội dung quản lý hoạt động dự báo, cảnh báo khí tượng thủy văn bao gồm việc xây dựng, trình cấp có thẩm quyền ban hành hoặc ban hành theo thẩm quyền các quy chuẩn kỹ thuật, **quy trình chuyên môn**, quy định về dự báo, cảnh báo khí tượng thủy văn (Điều 28 Khoản 1a).\n2.  **Trách nhiệm tuân thủ:** Hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia, tổ chức, cá nhân hoạt động dự báo, cảnh báo khí tượng thủy văn ",
+      "expected_citations": [
+        "13/2023/TT-BTNMT",
+        2501,
+        2502,
+        "Điều 21",
+        "07/2016/TT-BTNMT",
+        2550,
+        "38/2016/NĐ-CP",
+        "Điều 28",
+        2521
+      ],
+      "notes": "Category IDs: [203], Document IDs: [2501, 2502, 2521, 2550], Difficulty: medium",
+      "original_question_id": 14,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-15",
+      "question": "Tôi muốn thành lập doanh nghiệp trong lĩnh vực bưu chính viễn thông nhưng không đáp ứng điều kiện, phải làm sao?",
+      "difficulty": "hard",
+      "expected_category_id": 103,
+      "expected_document_ids": [
+        182,
+        181
+      ],
+      "expected_chunk_ids": [
+        "doc_182_chunk_4",
+        "doc_181_chunk_13"
+      ],
+      "expected_answer": "Theo Điều 21 của Luật Bưu chính số 49/2010/QH12, doanh nghiệp cung ứng dịch vụ thư có địa chỉ nhận có khối lượng đơn chiếc đến 02 kilôgam (kg) phải có giấy phép kinh doanh dịch vụ bưu chính và được cấp giấy phép khi có đủ các điều kiện sau đây:\n*   Có giấy chứng nhận đăng ký kinh doanh hoạt động bưu chính hoặc giấy chứng nhận đầu tư trong lĩnh vực bưu chính.\n*   Có khả năng tài chính, nhân sự phù hợp với phương án kinh doanh theo nội dung đề nghị được cấp giấy phép.\n*   Có phương án kinh doanh k",
+      "expected_citations": [
+        "47/2011/NĐ-CP",
+        181,
+        182,
+        "Điều 21"
+      ],
+      "notes": "Category IDs: [103], Document IDs: [182, 181], Difficulty: hard",
+      "original_question_id": 15,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-16",
+      "question": "Điều kiện để được cấp giấy phép hoạt động trong lĩnh vực bảo hiểm là gì?",
+      "difficulty": "medium",
+      "expected_category_id": 101,
+      "expected_document_ids": [
+        150,
+        151
+      ],
+      "expected_chunk_ids": [
+        "doc_150_chunk_55",
+        "doc_150_chunk_129",
+        "doc_150_chunk_49",
+        "doc_151_chunk_30",
+        "doc_150_chunk_50",
+        "doc_150_chunk_116",
+        "doc_151_chunk_38",
+        "doc_151_chunk_29"
+      ],
+      "expected_answer": "Dựa trên các văn bản pháp luật được cung cấp, điều kiện để được cấp giấy phép hoạt động trong lĩnh vực bảo hiểm được quy định như sau:\n\n**I. Đối với doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm:**\n\nCác điều kiện này được quy định tại **Điều 64 và Điều 65 của Luật 08/2022/QH15 Luật Kinh doanh bảo hiểm**.\n\n**1. Điều kiện chung (Điều 64):**\n*   **Về cổ đông, thành viên góp vốn thành lập:**\n    *   Tổ chức, cá nhân có quyền thành lập và quản lý doanh nghiệp tại Việt Nam theo quy định của Luật Do",
+      "expected_citations": [
+        "Điều 64",
+        "Điều 65",
+        "Điều 134",
+        "Điều 81",
+        150,
+        151,
+        "Điều 133"
+      ],
+      "notes": "Category IDs: [101], Document IDs: [150, 151], Difficulty: medium",
+      "original_question_id": 16,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-17",
+      "question": "Tôi bị từ chối cấp phép hoạt động trong lĩnh vực khoa học công nghệ, có thể khiếu nại không?",
+      "difficulty": "hard",
+      "expected_category_id": 126,
+      "expected_document_ids": [
+        654
+      ],
+      "expected_chunk_ids": [
+        "doc_654_chunk_28"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu.\n\nTài liệu được cung cấp là Nghị định 99/2022/NĐ-CP Về đăng ký biện pháp bảo đảm, quy định về việc từ chối đăng ký và khiếu nại liên quan đến đăng ký biện pháp bảo đảm, không đề cập đến việc cấp phép hoạt động trong lĩnh vực khoa học công nghệ.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 99/2022/NĐ-CP Về đăng ký biện pháp bảo đàm](lawchat://document/654)",
+      "expected_citations": [
+        "99/2022/NĐ-CP",
+        654
+      ],
+      "notes": "Category IDs: [126], Document IDs: [654], Difficulty: hard",
+      "original_question_id": 17,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-18",
+      "original_question_id": 18,
+      "question": "Quy định về quản lý bí mật nhà nước trong hoạt động công vụ",
+      "difficulty": "medium",
+      "source_file": "test_questions_2.json",
+      "notes": "Chưa có test results. Source: test_questions_2.json, Difficulty: medium"
+    },
+    {
+      "question_id": "2-19",
+      "question": "Tôi muốn thành lập tổ chức trong lĩnh vực giáo dục nghề nghiệp, cần chuẩn bị những gì?",
+      "difficulty": "hard",
+      "expected_category_id": 157,
+      "expected_document_ids": [
+        1460,
+        1549
+      ],
+      "expected_chunk_ids": [
+        "doc_1460_chunk_10",
+        "doc_1460_chunk_8",
+        "doc_1460_chunk_5",
+        "doc_1460_chunk_3",
+        "doc_1460_chunk_7",
+        "doc_1549_chunk_13",
+        "doc_1460_chunk_1",
+        "doc_1460_chunk_6"
+      ],
+      "expected_answer": "Để thành lập tổ chức trong lĩnh vực giáo dục nghề nghiệp, bạn cần chuẩn bị hồ sơ và đáp ứng các điều kiện theo quy định tại Nghị định 143/2016/NĐ-CP.\n\nCụ thể như sau:\n\n**I. Điều kiện thành lập, cho phép thành lập cơ sở giáo dục nghề nghiệp (Điều 3 Nghị định 143/2016/NĐ-CP):**\n\n1.  **Phù hợp quy hoạch:** Phù hợp với quy hoạch mạng lưới cơ sở giáo dục nghề nghiệp Việt Nam, quy hoạch của bộ, cơ quan ngang bộ, hoặc quy hoạch của Ủy ban nhân dân cấp tỉnh.\n    *   Đối với cơ sở giáo dục nghề nghiệp cô",
+      "expected_citations": [
+        "Điều 14",
+        "Điều 6",
+        1549,
+        "01/2024/TT-BLĐTBXH",
+        1460,
+        "Điều 3",
+        "143/2016/NĐ-CP"
+      ],
+      "notes": "Category IDs: [157], Document IDs: [1460, 1549], Difficulty: hard",
+      "original_question_id": 19,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "2-20",
+      "question": "Hợp đồng dịch vụ bưu chính không đáp ứng quy chuẩn kỹ thuật quốc gia có hiệu lực không?",
+      "difficulty": "hard",
+      "expected_category_id": 103,
+      "expected_document_ids": [
+        181,
+        189,
+        194,
+        182,
+        198,
+        191
+      ],
+      "expected_chunk_ids": [
+        "doc_181_chunk_16",
+        "doc_181_chunk_6",
+        "doc_181_chunk_30",
+        "doc_189_chunk_0",
+        "doc_194_chunk_0",
+        "doc_182_chunk_13",
+        "doc_198_chunk_0",
+        "doc_191_chunk_0"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu.\n\nCác tài liệu được cung cấp quy định về chất lượng dịch vụ bưu chính và các nội dung cần có trong hợp đồng cung ứng và sử dụng dịch vụ bưu chính. Cụ thể:\n*   **Điều 27 Luật Bưu chính** quy định chất lượng dịch vụ bưu chính công ích được quản lý trên cơ sở quy chuẩn kỹ thuật quốc gia, còn chất lượng dịch vụ bưu chính không thuộc dịch vụ bưu chính công ích do doanh nghiệp công bố, áp dụng phù hợp với quy định của pháp luật.\n*   **Điều 9 Luật Bưu chính** quy ",
+      "expected_citations": [
+        194,
+        "47/2011/NĐ-CP",
+        198,
+        "Điều 9",
+        "17/2015/TT-BTTTT",
+        "Điều 27",
+        181,
+        182,
+        "02/2012/TT-BTTTT",
+        "23/2016/TT-BTTTT"
+      ],
+      "notes": "Category IDs: [103], Document IDs: [181, 189, 194, 182, 198, 191], Difficulty: hard",
+      "original_question_id": 20,
+      "source_file": "test_questions_2.json"
+    },
+    {
+      "question_id": "3-1",
+      "question": "Nghị định 170/2016/NĐ-CP về việc công bố, tiếp nhận, xử lý và truyền phát thông tin có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "expected_category_id": 135,
+      "expected_document_ids": [
+        854
+      ],
+      "expected_chunk_ids": [
+        "doc_854_chunk_0",
+        "doc_854_chunk_1",
+        "doc_854_chunk_2",
+        "doc_854_chunk_3",
+        "doc_854_chunk_4",
+        "doc_854_chunk_5",
+        "doc_854_chunk_6",
+        "doc_854_chunk_7"
+      ],
+      "expected_answer": "Nghị định 170/2016/NĐ-CP về việc công bố, tiếp nhận, xử lý và truyền phát thông tin an ninh hàng hải có hiệu lực từ ngày **01/07/2017**.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 170/2016/NĐ-CP Quy định về việc công bố, tiếp nhận, xử lý và truyền phát thông tin an ninh hàng hải](lawchat://document/854)",
+      "expected_citations": [
+        "170/2016/NĐ-CP",
+        854
+      ],
+      "notes": "Category IDs: [135], Document IDs: [854], Difficulty: easy",
+      "original_question_id": 1,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-2",
+      "question": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực cạnh tranh là gì?",
+      "difficulty": "easy",
+      "expected_category_id": 231,
+      "expected_document_ids": [
+        3192
+      ],
+      "expected_chunk_ids": [
+        "doc_3192_chunk_4"
+      ],
+      "expected_answer": "Theo Nghị định 03/2023/NĐ-CP, quy định về xử phạt vi phạm hành chính trong lĩnh vực cạnh tranh được đề cập như sau:\n\n*   Ủy ban Cạnh tranh Quốc gia có thẩm quyền **xử phạt vi phạm hành chính** theo thẩm quyền, đồng thời có thể yêu cầu cơ quan nhà nước có thẩm quyền áp dụng một số hình thức xử phạt bổ sung, biện pháp khắc phục hậu quả đối với hành vi vi phạm pháp luật về cạnh tranh (điểm m khoản 1).\n*   Ủy ban cũng có thể yêu cầu cơ quan có thẩm quyền áp dụng **biện pháp ngăn chặn và bảo đảm xử l",
+      "expected_citations": [
+        3192,
+        "03/2023/NĐ-CP"
+      ],
+      "notes": "Category IDs: [231], Document IDs: [3192], Difficulty: easy",
+      "original_question_id": 2,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-3",
+      "question": "Thông tư 73/2019/TT-BCA quy định về thực hiện dân chủ trong cơ sở giam giữ phạm nhân được ban hành bởi cơ quan nào?",
+      "difficulty": "easy",
+      "expected_category_id": 293,
+      "expected_document_ids": [
+        3910
+      ],
+      "expected_chunk_ids": [
+        "doc_3910_chunk_0",
+        "doc_3910_chunk_1",
+        "doc_3910_chunk_2",
+        "doc_3910_chunk_3",
+        "doc_3910_chunk_4",
+        "doc_3910_chunk_5",
+        "doc_3910_chunk_6",
+        "doc_3910_chunk_7"
+      ],
+      "expected_answer": "Thông tư 73/2019/TT-BCA được ban hành bởi **Bộ Công an**.\n\nCụ thể, theo tài liệu \"Thông tư 73/2019/TT-BCA Quy định về thực hiện dân chủ trong cơ sở giam giữ phạm nhân, cơ sở giáo dục bắt buộc, trường giáo dưỡng thuộc Bộ Công an\", phần cuối của phần mở đầu có ghi: \"Bộ trưởng Bộ Công an ban hành Thông tư quy định về thực hiện dân chủ trong cơ sở giam giữ phạm nhân, cơ sở giáo dục bắt buộc, trường giáo dưỡng thuộc Bộ Công an.\"\n\n**Các văn bản pháp luật liên quan:**\n- [Thông tư 73/2019/TT-BCA Quy địn",
+      "expected_citations": [
+        "73/2019/TT-BCA",
+        3910
+      ],
+      "notes": "Category IDs: [293], Document IDs: [3910], Difficulty: easy",
+      "original_question_id": 3,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-4",
+      "question": "Tôi muốn thực hiện dân chủ trong cơ sở giam giữ, cần tuân thủ những quy định gì?",
+      "difficulty": "medium",
+      "expected_category_id": 293,
+      "expected_document_ids": [
+        3910,
+        3917,
+        3911,
+        3918
+      ],
+      "expected_chunk_ids": [
+        "doc_3910_chunk_2",
+        "doc_3910_chunk_3",
+        "doc_3917_chunk_2",
+        "doc_3911_chunk_2",
+        "doc_3911_chunk_1",
+        "doc_3910_chunk_1",
+        "doc_3918_chunk_3",
+        "doc_3910_chunk_0"
+      ],
+      "expected_answer": "Để thực hiện dân chủ trong cơ sở giam giữ, cần tuân thủ các nguyên tắc được quy định trong các văn bản pháp luật sau:\n\n**1. Đối với cơ sở giam giữ phạm nhân, cơ sở giáo dục bắt buộc, trường giáo dưỡng:**\nTheo **Điều 3, Thông tư 73/2019/TT-BCA**, các nguyên tắc cần tuân thủ bao gồm:\n*   **Tuân thủ pháp luật:** Tuân thủ Hiến pháp, pháp luật và quy định của Bộ Công an về công tác quản lý, giáo dục, cải tạo phạm nhân, trại viên, học sinh.\n*   **Tôn trọng và bảo vệ quyền lợi:** Tôn trọng và bảo vệ tí",
+      "expected_citations": [
+        3910,
+        3911,
+        "73/2019/TT-BCA",
+        3917,
+        3918,
+        "81/2019/TT-BCA",
+        "126/2020/TT-BCA",
+        "92/2020/TT-BCA",
+        "Điều 3"
+      ],
+      "notes": "Category IDs: [293], Document IDs: [3910, 3917, 3911, 3918], Difficulty: medium",
+      "original_question_id": 4,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-5",
+      "question": "Quy định về chuẩn bị ứng phó và ứng phó sự cố bức xạ như thế nào?",
+      "difficulty": "medium",
+      "expected_category_id": 155,
+      "expected_document_ids": [
+        1433,
+        1420,
+        1390,
+        1409
+      ],
+      "expected_chunk_ids": [
+        "doc_1433_chunk_13",
+        "doc_1420_chunk_35",
+        "doc_1433_chunk_3",
+        "doc_1390_chunk_73",
+        "doc_1409_chunk_22",
+        "doc_1420_chunk_36",
+        "doc_1433_chunk_16",
+        "doc_1420_chunk_37"
+      ],
+      "expected_answer": "Quy định về chuẩn bị ứng phó và ứng phó sự cố bức xạ được quy định như sau:\n\n**I. Công tác chuẩn bị ứng phó sự cố bức xạ:**\n\n1.  **Nguyên tắc và yêu cầu chung:**\n    *   **Nguyên tắc:** Hành động bảo vệ phải mang lại nhiều lợi ích hơn thiệt hại; hình thức, phạm vi và thời gian áp dụng hành động bảo vệ phải tối ưu; kế hoạch ứng phó phải kịp thời, được quản lý, kiểm soát, phối hợp đồng bộ và hiệu quả; phân công trách nhiệm rõ ràng, chỉ đạo tập trung thống nhất; chuẩn bị và ứng phó đồng bộ với các ",
+      "expected_citations": [
+        1409,
+        "12/2023/TT-BKHCN",
+        "Điều 22",
+        "19/2012/TT-BKHCN",
+        "Điều 23",
+        "Điều 4",
+        1420,
+        1390,
+        "24/2012/TT-BKHCN",
+        "Điều 13"
+      ],
+      "notes": "Category IDs: [155], Document IDs: [1433, 1420, 1390, 1409], Difficulty: medium",
+      "original_question_id": 5,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-6",
+      "question": "Công ty tôi muốn áp dụng hệ thống chuẩn mực kiểm toán Việt Nam, cần những thủ tục gì?",
+      "difficulty": "medium",
+      "expected_category_id": 143,
+      "expected_document_ids": [
+        1100,
+        1072
+      ],
+      "expected_chunk_ids": [
+        "doc_1100_chunk_653",
+        "doc_1072_chunk_1"
+      ],
+      "expected_answer": "Dựa trên các văn bản pháp luật được cung cấp:\n\n1.  **Quyết định 165/2002/QĐ-BTC** quy định rõ tại Mục 2 của Chuẩn mực số 01 - Chuẩn mực chung rằng: \"Các nguyên tắc, yêu cầu kế toán cơ bản và các yếu tố của báo cáo tài chính quy định trong chuẩn mực này... phải được áp dụng đối với mọi doanh nghiệp thuộc mọi thành phần kinh tế trong phạm vi cả nước.\" Điều này có nghĩa là hệ thống chuẩn mực kế toán Việt Nam là bắt buộc áp dụng đối với mọi doanh nghiệp, không phải là một hệ thống tùy chọn mà doanh ",
+      "expected_citations": [
+        1072,
+        "165/2002/QĐ-BTC",
+        "200/2014/TT-BTC",
+        1100
+      ],
+      "notes": "Category IDs: [143], Document IDs: [1100, 1072], Difficulty: medium",
+      "original_question_id": 6,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-7",
+      "question": "Cơ sở chế biến thuốc cổ truyền có quyền tự do chế biến không?",
+      "difficulty": "medium",
+      "expected_category_id": 297,
+      "expected_document_ids": [
+        4071,
+        4045,
+        4056,
+        4031,
+        4058
+      ],
+      "expected_chunk_ids": [
+        "doc_4071_chunk_0",
+        "doc_4045_chunk_0",
+        "doc_4056_chunk_2",
+        "doc_4031_chunk_39",
+        "doc_4056_chunk_37",
+        "doc_4058_chunk_67",
+        "doc_4058_chunk_52",
+        "doc_4058_chunk_55"
+      ],
+      "expected_answer": "Không, cơ sở chế biến thuốc cổ truyền không có quyền tự do chế biến. Việc chế biến thuốc cổ truyền phải tuân thủ theo các quy định, tiêu chuẩn và phương pháp đã được ban hành:\n\n1.  **Tiêu chuẩn chế biến, bào chế:** Thông tư 32/2020/TT-BYT quy định tiêu chuẩn và công bố đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền có tổ chức chế biến, bào chế thuốc cổ truyền (Điều 1 khoản 1 Thông tư 32/2020/TT-BYT).\n2.  **Phương pháp chế biến:** Thông ",
+      "expected_citations": [
+        "Điều 4",
+        4071,
+        "13/2018/TT-BYT",
+        "Điều 1",
+        "21/2018/TT-BYT",
+        4045,
+        "32/2020/TT-BYT",
+        "30/2017/TT-BYT",
+        4056,
+        "54/2017/NĐ-CP"
+      ],
+      "notes": "Category IDs: [297], Document IDs: [4071, 4045, 4056, 4031, 4058], Difficulty: medium",
+      "original_question_id": 7,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-8",
+      "question": "Tôi là doanh nghiệp, vi phạm quy định về cạnh tranh, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3612,
+        3599
+      ],
+      "expected_chunk_ids": [
+        "doc_3612_chunk_1",
+        "doc_3599_chunk_21",
+        "doc_3612_chunk_16",
+        "doc_3612_chunk_27",
+        "doc_3612_chunk_2",
+        "doc_3612_chunk_3",
+        "doc_3612_chunk_37",
+        "doc_3612_chunk_36"
+      ],
+      "expected_answer": "Khi doanh nghiệp vi phạm quy định về cạnh tranh, sẽ bị xử phạt theo các hình thức và biện pháp sau đây, tùy thuộc vào tính chất, mức độ và hành vi vi phạm cụ thể:\n\n**I. Các hình thức xử phạt chính (theo Điều 3 Nghị định 71/2014/NĐ-CP):**\n1.  **Cảnh cáo.**\n2.  **Phạt tiền.**\n\n**II. Các hình thức xử phạt bổ sung (theo Khoản 2 Điều 3 Nghị định 71/2014/NĐ-CP):**\nTùy theo tính chất, mức độ vi phạm, doanh nghiệp còn có thể bị áp dụng một hoặc các hình thức sau:\n1.  Thu hồi giấy chứng nhận đăng ký doan",
+      "expected_citations": [
+        "Điều 33",
+        "71/2014/NĐ-CP",
+        "Điều 4",
+        "98/2013/NĐ-CP",
+        3599,
+        "Điều 19",
+        "Điều 15",
+        "Điều 3",
+        3612
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3612, 3599], Difficulty: hard",
+      "original_question_id": 8,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-9",
+      "question": "Căn cứ pháp lý nào quy định về quản lý giống cây trồng?",
+      "difficulty": "medium",
+      "expected_category_id": 180,
+      "expected_document_ids": [
+        2020,
+        2069
+      ],
+      "expected_chunk_ids": [
+        "doc_2020_chunk_21",
+        "doc_2020_chunk_17",
+        "doc_2020_chunk_24",
+        "doc_2020_chunk_19",
+        "doc_2020_chunk_9",
+        "doc_2069_chunk_0",
+        "doc_2020_chunk_15",
+        "doc_2020_chunk_29"
+      ],
+      "expected_answer": "Căn cứ pháp lý quy định về quản lý giống cây trồng được tìm thấy trong **Luật 31/2018/QH14 Trồng trọt**, cụ thể như sau:\n\n1.  **Quản lý chất lượng vật liệu nhân giống cây trồng:**\n    *   **Điều 17** quy định về quản lý chất lượng vật liệu nhân giống cây trồng, phân loại thành sản phẩm, hàng hóa nhóm 1 hoặc nhóm 2 và quản lý dựa trên quy chuẩn kỹ thuật quốc gia hoặc tiêu chuẩn do tổ chức, cá nhân công bố áp dụng.\n2.  **Lưu mẫu giống cây trồng:**\n    *   **Điều 20** quy định về việc lưu mẫu giống",
+      "expected_citations": [
+        "Điều 22",
+        "Điều 26",
+        2020,
+        "Điều 23",
+        "Điều 17",
+        "Điều 10",
+        "26/2019/TT-BNNPTNT",
+        "Điều 27",
+        2069,
+        "Điều 44"
+      ],
+      "notes": "Category IDs: [180], Document IDs: [2020, 2069], Difficulty: medium",
+      "original_question_id": 9,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-10",
+      "question": "Hợp đồng hoạt động của tổ chức tư vấn pháp luật cần có những điều khoản bắt buộc nào?",
+      "difficulty": "hard",
+      "expected_category_id": 109,
+      "expected_document_ids": [
+        350,
+        359
+      ],
+      "expected_chunk_ids": [
+        "doc_350_chunk_8",
+        "doc_359_chunk_6"
+      ],
+      "expected_answer": "Theo Điều 14 của Thông tư 08/2017/TT-BTP, hợp đồng thực hiện trợ giúp pháp lý (ký kết giữa Sở Tư pháp với tổ chức tư vấn pháp luật) cần có các nội dung cơ bản sau đây:\n\n1.  Đối tượng, phạm vi, hình thức, lĩnh vực trợ giúp pháp lý.\n2.  Trách nhiệm của các bên trong thực hiện hợp đồng.\n3.  Thời hạn của hợp đồng.\n4.  Thù lao, chi phí thực hiện vụ việc trợ giúp pháp lý.\n5.  Sửa đổi, bổ sung, chấm dứt hợp đồng.\n6.  Cơ chế giải quyết tranh chấp và trách nhiệm vi phạm hợp đồng.\n7.  Các thỏa thuận khác ",
+      "expected_citations": [
+        "08/2017/TT-BTP",
+        "Điều 14",
+        350,
+        359
+      ],
+      "notes": "Category IDs: [109], Document IDs: [350, 359], Difficulty: hard",
+      "original_question_id": 10,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-11",
+      "question": "Tôi là tổ chức nước ngoài, muốn hoạt động tư vấn pháp luật ở Việt Nam có được không?",
+      "difficulty": "hard",
+      "expected_category_id": 108,
+      "expected_document_ids": [
+        344,
+        345,
+        348
+      ],
+      "expected_chunk_ids": [
+        "doc_344_chunk_46",
+        "doc_344_chunk_45",
+        "doc_345_chunk_28",
+        "doc_344_chunk_27",
+        "doc_344_chunk_48",
+        "doc_348_chunk_19",
+        "doc_345_chunk_26",
+        "doc_348_chunk_27"
+      ],
+      "expected_answer": "Có, tổ chức nước ngoài có thể hoạt động tư vấn pháp luật ở Việt Nam.\n\nTheo **Điều 69 Luật 65/2006/QH11 Luật sư**, tổ chức hành nghề luật sư nước ngoài hành nghề tại Việt Nam dưới các hình thức sau:\n*   Chi nhánh của tổ chức hành nghề luật sư nước ngoài.\n*   Công ty luật trách nhiệm hữu hạn một trăm phần trăm vốn nước ngoài hoặc công ty luật trách nhiệm hữu hạn dưới hình thức liên doanh.\n\nVề phạm vi hành nghề, **Điều 70 Luật 65/2006/QH11 Luật sư** quy định: \"Chi nhánh, công ty luật nước ngoài hàn",
+      "expected_citations": [
+        "123/2013/NĐ-CP",
+        "Điều 70",
+        "Điều 69",
+        "05/2021/TT-BTP",
+        344,
+        345,
+        348
+      ],
+      "notes": "Category IDs: [108], Document IDs: [344, 345, 348], Difficulty: hard",
+      "original_question_id": 11,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-12",
+      "question": "Thời hạn xử lý thông tin công bố, tiếp nhận là bao lâu?",
+      "difficulty": "medium",
+      "expected_category_id": 148,
+      "expected_document_ids": [
+        1206,
+        1010
+      ],
+      "expected_chunk_ids": [
+        "doc_1206_chunk_34",
+        "doc_1010_chunk_12"
+      ],
+      "expected_answer": "Dựa trên các văn bản pháp luật được cung cấp:\n\nĐối với việc xử lý khiếu nại, tố cáo, kiến nghị, phản ánh:\n\n*   **Trong thời hạn 10 ngày làm việc**, kể từ ngày tiếp nhận nội dung khiếu nại, tố cáo, kiến nghị, phản ánh, người tiếp công dân có trách nhiệm trả lời trực tiếp hoặc thông báo bằng văn bản đến người đã đến khiếu nại, tố cáo, kiến nghị, phản ánh về các nội dung như đã được thụ lý, cần kéo dài thời gian xem xét, từ chối thụ lý hoặc đã chuyển đến cơ quan có thẩm quyền giải quyết. (Điều 28 k",
+      "expected_citations": [
+        1010,
+        "Điều 27",
+        "Điều 28",
+        1206,
+        "19/2017/TT-BGTVT"
+      ],
+      "notes": "Category IDs: [148, 136], Document IDs: [1206, 1010], Difficulty: medium",
+      "original_question_id": 12,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-13",
+      "question": "Công ty tôi vi phạm quy định về phòng, chống động đất, sóng thần, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3657,
+        3599,
+        3617,
+        3612,
+        3638,
+        3659
+      ],
+      "expected_chunk_ids": [
+        "doc_3657_chunk_3",
+        "doc_3599_chunk_21",
+        "doc_3617_chunk_2",
+        "doc_3612_chunk_1",
+        "doc_3638_chunk_4",
+        "doc_3659_chunk_1",
+        "doc_3599_chunk_32"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu về việc xử phạt công ty vi phạm quy định về phòng, chống động đất, sóng thần.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 144/2021/NĐ-CP Quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội; phòng, chống tệ nạn xã hội; phòng cháy, chữa cháy, cứu nạn, cứu hộ; phòng, chống bạo lực gia đình](lawchat://document/3657)\n- [Nghị định 98/2013/NĐ-CP Quy định về xử phạt vi phạm hành chính trong lĩnh vực kinh doanh bảo hiểm, kinh d",
+      "expected_citations": [
+        3617,
+        "71/2014/NĐ-CP",
+        "98/2013/NĐ-CP",
+        "119/2017/nđ-cp",
+        3657,
+        "96/2020/NĐ-CP",
+        3599,
+        3638,
+        3612,
+        "144/2021/NĐ-CP"
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3657, 3599, 3617, 3612, 3638, 3659], Difficulty: hard",
+      "original_question_id": 13,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-14",
+      "question": "Quy định về quản lý lý lịch tư pháp",
+      "difficulty": "medium",
+      "expected_category_id": 139,
+      "expected_document_ids": [
+        1032,
+        1036,
+        1035
+      ],
+      "expected_chunk_ids": [
+        "doc_1032_chunk_6",
+        "doc_1036_chunk_2",
+        "doc_1032_chunk_8",
+        "doc_1032_chunk_16",
+        "doc_1036_chunk_1",
+        "doc_1036_chunk_48",
+        "doc_1036_chunk_13",
+        "doc_1035_chunk_10"
+      ],
+      "expected_answer": "Quy định về quản lý lý lịch tư pháp được nêu trong các văn bản pháp luật đã cung cấp như sau:\n\n**1. Định nghĩa và Tổ chức quản lý:**\n*   \"Quản lý cơ sở dữ liệu lý lịch tư pháp\" là tập hợp nhiệm vụ, quyền hạn của Trung tâm Lý lịch tư pháp quốc gia và Sở Tư pháp trong việc xây dựng, lưu trữ, bảo vệ cơ sở dữ liệu lý lịch tư pháp tại Trung tâm Lý lịch tư pháp quốc gia, Sở Tư pháp (Điều 2, Khoản 1, Thông tư 06/2013/TT-BTP).\n*   Cơ sở dữ liệu lý lịch tư pháp là tập hợp các thông tin lý lịch tư pháp về",
+      "expected_citations": [
+        "Điều 14",
+        "Điều 26",
+        "Điều 2",
+        1032,
+        "06/2013/TT-BTP",
+        "04/2012/TTLT-BTP",
+        1035,
+        1036,
+        "Điều 13",
+        "Điều 3"
+      ],
+      "notes": "Category IDs: [139], Document IDs: [1032, 1036, 1035], Difficulty: medium",
+      "original_question_id": 14,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-15",
+      "question": "Tôi muốn kinh doanh du lịch nhưng không đáp ứng điều kiện, phải làm sao?",
+      "difficulty": "hard",
+      "expected_category_id": 275,
+      "expected_document_ids": [
+        3735,
+        3736,
+        3744
+      ],
+      "expected_chunk_ids": [
+        "doc_3735_chunk_31",
+        "doc_3735_chunk_38",
+        "doc_3736_chunk_6",
+        "doc_3735_chunk_20",
+        "doc_3744_chunk_7",
+        "doc_3736_chunk_20",
+        "doc_3735_chunk_24",
+        "doc_3744_chunk_4"
+      ],
+      "expected_answer": "Các văn bản pháp luật được cung cấp nêu rõ các điều kiện kinh doanh đối với một số loại hình dịch vụ du lịch cụ thể và tiêu chuẩn phục vụ khách du lịch.\n\nCụ thể:\n*   **Điều 31 Luật Du lịch 09/2017/QH14** quy định điều kiện kinh doanh dịch vụ lữ hành nội địa và quốc tế.\n*   **Điều 49 Luật Du lịch 09/2017/QH14** quy định điều kiện kinh doanh dịch vụ lưu trú du lịch.\n*   Đối với các cơ sở kinh doanh dịch vụ du lịch khác (như ăn uống, thể thao, vui chơi giải trí), **Thông tư 06/2017/TT-BVHTTDL** quy",
+      "expected_citations": [
+        3744,
+        "06/2017/TT-BVHTTDL",
+        "Điều 56",
+        "Điều 9",
+        "Điều 10",
+        "Điều 49",
+        "168/2017/NĐ-CP",
+        3735,
+        3736,
+        "Điều 11"
+      ],
+      "notes": "Category IDs: [275], Document IDs: [3735, 3736, 3744], Difficulty: hard",
+      "original_question_id": 15,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-16",
+      "question": "Điều kiện để được cấp giấy phép hoạt động trong lĩnh vực nông nghiệp là gì?",
+      "difficulty": "medium",
+      "expected_category_id": 180,
+      "expected_document_ids": [
+        2020
+      ],
+      "expected_chunk_ids": [
+        "doc_2020_chunk_35",
+        "doc_2020_chunk_36",
+        "doc_2020_chunk_19",
+        "doc_2020_chunk_34"
+      ],
+      "expected_answer": "Trong lĩnh vực nông nghiệp, cụ thể là lĩnh vực trồng trọt, các văn bản pháp luật được cung cấp quy định về điều kiện để được cấp giấy phép/giấy chứng nhận hoặc công nhận đối với một số hoạt động sau:\n\n1.  **Điều kiện cấp Giấy chứng nhận đủ điều kiện sản xuất phân bón:**\n    Theo Điều 4 Khoản 2 Luật 31/2018/QH14 Trồng trọt, điều kiện bao gồm:\n    *   Có địa điểm sản xuất, diện tích nhà xưởng phù hợp với quy mô sản xuất.\n    *   Có dây chuyền, máy móc, thiết bị phù hợp với quy trình sản xuất từng ",
+      "expected_citations": [
+        "Điều 22",
+        2020,
+        "Điều 4",
+        "Điều 40",
+        "Điều 42"
+      ],
+      "notes": "Category IDs: [180], Document IDs: [2020], Difficulty: medium",
+      "original_question_id": 16,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-17",
+      "question": "Tôi bị từ chối cấp phép hoạt động trong lĩnh vực y tế, có thể khiếu nại không?",
+      "difficulty": "hard",
+      "expected_category_id": 297,
+      "expected_document_ids": [
+        4076
+      ],
+      "expected_chunk_ids": [
+        "doc_4076_chunk_9"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu.\n\nTài liệu được cung cấp chỉ quy định về việc khiếu nại và giải quyết khiếu nại kết quả kiểm nghiệm chất lượng dược liệu, vị thuốc cổ truyền, thuốc cổ truyền theo Thông tư 38/2021/TT-BYT, không đề cập đến việc khiếu nại khi bị từ chối cấp phép hoạt động trong lĩnh vực y tế nói chung.\n\n**Các văn bản pháp luật liên quan:**\n- [Thông tư 38/2021/TT-BYT quy định về chất lượng dược liệu, vị thuốc cổ truyền, thuốc cổ truyền](lawchat://document/4076)",
+      "expected_citations": [
+        "38/2021/TT-BYT",
+        4076
+      ],
+      "notes": "Category IDs: [297], Document IDs: [4076], Difficulty: hard",
+      "original_question_id": 17,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-18",
+      "question": "Quy định về thi hành tạm giữ, tạm giam trong hoạt động tư pháp",
+      "difficulty": "medium",
+      "expected_category_id": 256,
+      "expected_document_ids": [
+        3539,
+        3537
+      ],
+      "expected_chunk_ids": [
+        "doc_3539_chunk_6",
+        "doc_3539_chunk_1",
+        "doc_3537_chunk_20",
+        "doc_3539_chunk_10",
+        "doc_3539_chunk_7",
+        "doc_3537_chunk_0",
+        "doc_3539_chunk_3",
+        "doc_3537_chunk_1"
+      ],
+      "expected_answer": "Các văn bản pháp luật được cung cấp chủ yếu quy định về việc xây dựng, quản lý, sử dụng cơ sở dữ liệu và hồ sơ quản lý về thi hành tạm giữ, tạm giam, chứ không trực tiếp quy định chi tiết về quy trình, điều kiện, quyền và nghĩa vụ trong hoạt động thi hành tạm giữ, tạm giam trong hoạt động tư pháp.\n\nCụ thể:\n*   **Nghị định 121/2017/NĐ-CP** quy định về xây dựng, quản lý, sử dụng cơ sở dữ liệu về thi hành tạm giữ, tạm giam, bao gồm:\n    *   **Điều 3:** Nguyên tắc xây dựng, quản lý, sử dụng cơ sở dữ",
+      "expected_citations": [
+        "Điều 12",
+        "121/2017/NĐ-CP",
+        "Điều 17",
+        "Điều 9",
+        "Điều 10",
+        3537,
+        3539,
+        "Điều 3"
+      ],
+      "notes": "Category IDs: [256], Document IDs: [3539, 3537], Difficulty: medium",
+      "original_question_id": 18,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "3-19",
+      "original_question_id": 19,
+      "question": "Tôi muốn thành lập tổ chức trong lĩnh vực công nghiệp, cần chuẩn bị những gì?",
+      "difficulty": "hard",
+      "source_file": "test_questions_3.json",
+      "notes": "Chưa có test results. Source: test_questions_3.json, Difficulty: hard"
+    },
+    {
+      "question_id": "3-20",
+      "question": "Hợp đồng hoạt động trong lĩnh vực chính sách xã hội không đáp ứng quy định có hiệu lực không?",
+      "difficulty": "hard",
+      "expected_category_id": 136,
+      "expected_document_ids": [
+        968,
+        442,
+        3320,
+        1558,
+        1082,
+        1553
+      ],
+      "expected_chunk_ids": [
+        "doc_968_chunk_3",
+        "doc_442_chunk_6",
+        "doc_3320_chunk_29",
+        "doc_1558_chunk_0",
+        "doc_1082_chunk_20",
+        "doc_1553_chunk_0",
+        "doc_1553_chunk_137"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu. Các văn bản được cung cấp không đề cập đến hiệu lực của hợp đồng hoạt động trong lĩnh vực chính sách xã hội khi không đáp ứng quy định.\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 66/2006/QH11 Hàng không dân dụng Việt Nam](lawchat://document/968)\n- [Thông tư 14/2021/TT-BVHTTDL quy định tiêu chí phân loại, điều kiện thành lập, sáp nhập, hợp nhất, giải thể đơn vị sự nghiệp công lập thuộc lĩnh vực văn hóa, gia đình, thể thao và du lịch](lawchat://document/4",
+      "expected_citations": [
+        "107/2018/NĐ-CP",
+        1082,
+        968,
+        "10/2020/TT-BLĐTBXH",
+        "32/2007/QĐ-BTC",
+        1558,
+        3320,
+        442,
+        "14/2021/TT-BVHTTDL"
+      ],
+      "notes": "Category IDs: [136, 111, 234, 158, 143], Document IDs: [968, 442, 3320, 1558, 1082, 1553], Difficulty: hard",
+      "original_question_id": 20,
+      "source_file": "test_questions_3.json"
+    },
+    {
+      "question_id": "4-1",
+      "question": "Luật 87/2015/QH13 về hoạt động giám sát của Quốc hội và Hội đồng nhân dân có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "expected_category_id": 238,
+      "expected_document_ids": [
+        3392
+      ],
+      "expected_chunk_ids": [
+        "doc_3392_chunk_0",
+        "doc_3392_chunk_1",
+        "doc_3392_chunk_2",
+        "doc_3392_chunk_3",
+        "doc_3392_chunk_4",
+        "doc_3392_chunk_5",
+        "doc_3392_chunk_6",
+        "doc_3392_chunk_7"
+      ],
+      "expected_answer": "Luật 87/2015/QH13 về hoạt động giám sát của Quốc hội và Hội đồng nhân dân có hiệu lực từ ngày **01/07/2016**.\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 87/2015/QH13 Hoạt động giám sát của Quốc hội và Hội đồng nhân dân](lawchat://document/3392)",
+      "expected_citations": [
+        3392
+      ],
+      "notes": "Category IDs: [238], Document IDs: [3392], Difficulty: easy",
+      "original_question_id": 1,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-2",
+      "question": "Quy định về quản lý an toàn thực phẩm thuộc trách nhiệm của Bộ Công Thương là gì?",
+      "difficulty": "easy",
+      "expected_category_id": 295,
+      "expected_document_ids": [
+        3922,
+        4011,
+        3927,
+        4004
+      ],
+      "expected_chunk_ids": [
+        "doc_3922_chunk_49",
+        "doc_3922_chunk_45",
+        "doc_3922_chunk_47",
+        "doc_3922_chunk_46",
+        "doc_4011_chunk_21",
+        "doc_3927_chunk_45",
+        "doc_4004_chunk_0",
+        "doc_4011_chunk_0"
+      ],
+      "expected_answer": "Theo Điều 64 của Luật 55/2010/QH12 An toàn thực phẩm, trách nhiệm của Bộ Công Thương trong quản lý an toàn thực phẩm bao gồm:\n\n1.  Chủ trì xây dựng, ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện các chính sách, chiến lược, quy hoạch, kế hoạch, văn bản quy phạm pháp luật về an toàn thực phẩm thuộc lĩnh vực được phân công quản lý.\n2.  Quản lý an toàn thực phẩm trong suốt quá trình sản xuất, chế biến, bảo quản, vận chuyển, xuất khẩu, nhập khẩu, kinh doanh đối với ",
+      "expected_citations": [
+        "15/2018/NĐ-CP",
+        "48/2015/TT-BYT",
+        "Điều 64",
+        4004,
+        4011,
+        3922,
+        "43/2018/TT-BCT",
+        3927
+      ],
+      "notes": "Category IDs: [295], Document IDs: [3922, 4011, 3927, 4004], Difficulty: easy",
+      "original_question_id": 2,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-3",
+      "question": "Thông tư 03/2015/TT-BVHTTDL quy định về giám định khoa học đánh giá trình độ tập luyện được ban hành bởi cơ quan nào?",
+      "difficulty": "easy",
+      "expected_category_id": 281,
+      "expected_document_ids": [
+        3799
+      ],
+      "expected_chunk_ids": [
+        "doc_3799_chunk_0",
+        "doc_3799_chunk_1",
+        "doc_3799_chunk_2",
+        "doc_3799_chunk_3",
+        "doc_3799_chunk_4",
+        "doc_3799_chunk_5",
+        "doc_3799_chunk_6",
+        "doc_3799_chunk_7"
+      ],
+      "expected_answer": "Thông tư 03/2015/TT-BVHTTDL được ban hành bởi **Bộ Văn hóa, Thể thao và Du lịch**.\n\nCụ thể, \"Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch ban hành Thông tư quy định về giám định khoa học đánh giá trình độ tập luyện thể thao và kiểm tra sức khỏe của vận động viên.\" (Tài liệu: Thông tư 03/2015/TT-BVHTTDL).\n\n**Các văn bản pháp luật liên quan:**\n- [Thông tư 03/2015/TT-BVHTTDL Quy định về giám định khoa học đánh giá trình độ tập luyện thể thao và kiểm tra sức khỏe của vận động viên](lawchat://document/3",
+      "expected_citations": [
+        "03/2015/TT-BVHTTDL",
+        3799
+      ],
+      "notes": "Category IDs: [281], Document IDs: [3799], Difficulty: easy",
+      "original_question_id": 3,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-4",
+      "question": "Tôi muốn thực hiện quy trình duy tu, bảo dưỡng đê điều, cần những quy định gì?",
+      "difficulty": "medium",
+      "expected_category_id": 179,
+      "expected_document_ids": [
+        2019,
+        2015,
+        2003
+      ],
+      "expected_chunk_ids": [
+        "doc_2019_chunk_2",
+        "doc_2019_chunk_1",
+        "doc_2015_chunk_8",
+        "doc_2015_chunk_2",
+        "doc_2015_chunk_3",
+        "doc_2003_chunk_13",
+        "doc_2003_chunk_5"
+      ],
+      "expected_answer": "Để thực hiện quy trình duy tu, bảo dưỡng đê điều, bạn cần tuân thủ các quy định sau đây, chủ yếu được hướng dẫn bởi **Thông tư 25/2023/TT-BNNPTNT** và **Thông tư liên tịch 48/2009/TTLT-BTC-BNN**:\n\n**I. Quy trình lập kế hoạch duy tu, bảo dưỡng đê điều từ nguồn ngân sách trung ương (Theo Điều 3 Thông tư 25/2023/TT-BNNPTNT):**\n\n1.  **Căn cứ lập kế hoạch:**\n    *   Sự cấp thiết phải duy tu, sửa chữa để đảm bảo an toàn cho đê, chống xuống cấp, đáp ứng yêu cầu phòng, chống lũ lụt, bão.\n    *   Hiện tr",
+      "expected_citations": [
+        2019,
+        "Điều 4",
+        "Điều 6",
+        "25/2023/TT-BNNPTNT",
+        "48/2009/TTLT-BTC",
+        2003,
+        "Điều 3",
+        2015
+      ],
+      "notes": "Category IDs: [179], Document IDs: [2019, 2015, 2003], Difficulty: medium",
+      "original_question_id": 4,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-5",
+      "original_question_id": 5,
+      "question": "Quy định về điều kiện an toàn trong lĩnh vực nông nghiệp như thế nào?",
+      "difficulty": "medium",
+      "source_file": "test_questions_4.json",
+      "notes": "Chưa có test results. Source: test_questions_4.json, Difficulty: medium"
+    },
+    {
+      "question_id": "4-6",
+      "question": "Công ty tôi muốn sử dụng thuốc, nguyên liệu làm thuốc, cần những thủ tục gì?",
+      "difficulty": "medium",
+      "expected_category_id": 297,
+      "expected_document_ids": [
+        4078,
+        4031
+      ],
+      "expected_chunk_ids": [
+        "doc_4078_chunk_13",
+        "doc_4031_chunk_210",
+        "doc_4078_chunk_33",
+        "doc_4031_chunk_42",
+        "doc_4031_chunk_192",
+        "doc_4078_chunk_60",
+        "doc_4031_chunk_156",
+        "doc_4031_chunk_195"
+      ],
+      "expected_answer": "Để công ty có thể sử dụng (lưu hành) thuốc và nguyên liệu làm thuốc, cần thực hiện các thủ tục liên quan đến đăng ký lưu hành và đáp ứng các điều kiện kinh doanh dược phẩm:\n\n1.  **Đăng ký lưu hành thuốc, nguyên liệu làm thuốc:**\n    *   Công ty cần nộp hồ sơ đăng ký thuốc, nguyên liệu làm thuốc để được cấp, gia hạn, thay đổi, bổ sung Giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc.\n    *   **Hồ sơ:** Bao gồm 01 (một) bộ hồ sơ đầy đủ theo quy định tại Thông tư 08/2022/TT-BYT (trừ trang bìa). Đ",
+      "expected_citations": [
+        "Điều 98",
+        "Điều 38",
+        4078,
+        "54/2017/NĐ-CP",
+        "05/2010/TT-BYT",
+        "08/2022/TT-BYT",
+        "Điều 32",
+        "Điều 7",
+        4031
+      ],
+      "notes": "Category IDs: [297], Document IDs: [4078, 4031], Difficulty: medium",
+      "original_question_id": 6,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-7",
+      "question": "Ngân hàng có quyền tự do quản lý hoạt động chiết khấu công cụ chuyển nhượng không?",
+      "difficulty": "medium",
+      "expected_category_id": 164,
+      "expected_document_ids": [
+        1731,
+        1729
+      ],
+      "expected_chunk_ids": [
+        "doc_1731_chunk_1",
+        "doc_1729_chunk_12",
+        "doc_1729_chunk_13",
+        "doc_1729_chunk_8",
+        "doc_1731_chunk_2",
+        "doc_1729_chunk_4",
+        "doc_1731_chunk_0",
+        "doc_1731_chunk_3"
+      ],
+      "expected_answer": "Không, ngân hàng không có quyền tự do quản lý hoạt động chiết khấu công cụ chuyển nhượng. Hoạt động này phải tuân thủ theo các quy định của pháp luật.\n\nCụ thể:\n*   **Thông tư 04/2013/TT-NHNN** quy định rõ về quyền và nghĩa vụ của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong hoạt động chiết khấu công cụ chuyển nhượng đối với khách hàng.\n    *   Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài có quyền từ chối yêu cầu chiết khấu của khách hàng nếu \"việc sử dụng tiền chiết khấu không phù ",
+      "expected_citations": [
+        1729,
+        1731,
+        "Điều 4",
+        "Điều 16",
+        "Điều 10",
+        "04/2013/TT-NHNN",
+        "18/2021/TT-NHNN"
+      ],
+      "notes": "Category IDs: [164], Document IDs: [1731, 1729], Difficulty: medium",
+      "original_question_id": 7,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-8",
+      "question": "Tôi là doanh nghiệp, vi phạm quy định về thực hiện Quy tắc xuất xứ, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3617,
+        3640,
+        3600,
+        3641,
+        3661
+      ],
+      "expected_chunk_ids": [
+        "doc_3617_chunk_5",
+        "doc_3617_chunk_2",
+        "doc_3640_chunk_28",
+        "doc_3617_chunk_42",
+        "doc_3600_chunk_17",
+        "doc_3641_chunk_158",
+        "doc_3661_chunk_180",
+        "doc_3617_chunk_33"
+      ],
+      "expected_answer": "Không tìm thấy quy định về xử phạt vi phạm quy định về thực hiện Quy tắc xuất xứ trong các tài liệu được cung cấp.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 119/2017/nđ-cp Quy định về xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa](lawchat://document/3617)\n- [Nghị định 99/2020/NĐ-CP Quy định xử phạt vi phạm hành chính trong lĩnh vực dầu khí, kinh doanh xăng dầu và khí](lawchat://document/3640)\n- [Nghị định 99/2013/NĐ-CP Quy định xử phạt v",
+      "expected_citations": [
+        3617,
+        "119/2017/nđ-cp",
+        3661,
+        3600,
+        "117/2020/NĐ-CP",
+        "99/2013/NĐ-CP",
+        3640,
+        3641,
+        "45/2022/NĐ-CP",
+        "99/2020/NĐ-CP"
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3617, 3640, 3600, 3641, 3661], Difficulty: hard",
+      "original_question_id": 8,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-9",
+      "question": "Căn cứ pháp lý nào quy định về chức năng, nhiệm vụ và quyền hạn của chi cục dược?",
+      "difficulty": "medium",
+      "expected_category_id": 111,
+      "expected_document_ids": [
+        398
+      ],
+      "expected_chunk_ids": [
+        "doc_398_chunk_11",
+        "doc_398_chunk_8",
+        "doc_398_chunk_9",
+        "doc_398_chunk_5"
+      ],
+      "expected_answer": "Không tìm thấy quy định về chức năng, nhiệm vụ và quyền hạn của chi cục dược trong các tài liệu được cung cấp. Các tài liệu này chỉ quy định về nhiệm vụ và tiêu chuẩn chức danh nghề nghiệp của các cá nhân làm việc trong lĩnh vực dược (Dược sĩ chính, Dược sĩ, Dược hạng IV).\n\n**Các văn bản pháp luật liên quan:**\n- [Thông tư liên tịch 27/2015/TTLT-BYT-BNV Quy định mã số, tiêu chuẩn chức danh nghề nghiệp dược](lawchat://document/398)",
+      "expected_citations": [
+        "27/2015/TTLT-BYT",
+        398
+      ],
+      "notes": "Category IDs: [111], Document IDs: [398], Difficulty: medium",
+      "original_question_id": 9,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-10",
+      "question": "Hợp đồng hoạt động giám sát của Quốc hội cần có những điều khoản bắt buộc nào?",
+      "difficulty": "hard",
+      "expected_category_id": 238,
+      "expected_document_ids": [
+        3392,
+        3394
+      ],
+      "expected_chunk_ids": [
+        "doc_3392_chunk_109",
+        "doc_3392_chunk_12",
+        "doc_3392_chunk_67",
+        "doc_3392_chunk_111",
+        "doc_3392_chunk_0",
+        "doc_3392_chunk_2",
+        "doc_3392_chunk_110",
+        "doc_3394_chunk_1"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu về các điều khoản bắt buộc của hợp đồng hoạt động giám sát của Quốc hội. Các điều khoản được cung cấp trong Luật 87/2015/QH13 Hoạt động giám sát của Quốc hội và Hội đồng nhân dân chủ yếu quy định về trách nhiệm, quyền hạn, các hoạt động giám sát và việc bảo đảm thực hiện hoạt động giám sát, kinh phí, tổ chức phục vụ hoạt động giám sát, chứ không đề cập đến hợp đồng cụ thể hay các điều khoản bắt buộc của nó.\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 87/2",
+      "expected_citations": [
+        3392,
+        3394
+      ],
+      "notes": "Category IDs: [238], Document IDs: [3392, 3394], Difficulty: hard",
+      "original_question_id": 10,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-11",
+      "question": "Tôi là tổ chức nước ngoài, muốn hoạt động trong lĩnh vực giao thông vận tải ở Việt Nam có được không?",
+      "difficulty": "hard",
+      "expected_category_id": 158,
+      "expected_document_ids": [
+        1554
+      ],
+      "expected_chunk_ids": [
+        "doc_1554_chunk_5",
+        "doc_1554_chunk_4",
+        "doc_1554_chunk_3",
+        "doc_1554_chunk_1"
+      ],
+      "expected_answer": "Theo Nghị định 152/2020/NĐ-CP, Khoản 3 Điều 2 điểm đ quy định về Văn phòng đại diện tại Việt Nam của tổ chức nước ngoài được phép hoạt động trong các lĩnh vực: kinh tế, thương mại, tài chính, ngân hàng, bảo hiểm, khoa học - kỹ thuật, văn hóa, giáo dục, y tế, tư vấn pháp luật nước ngoài. Lĩnh vực giao thông vận tải không được liệt kê trong danh sách này đối với văn phòng đại diện.\n\nTài liệu này không cung cấp quy định chung về việc tổ chức nước ngoài được phép hoạt động trong lĩnh vực giao thông ",
+      "expected_citations": [
+        1554,
+        "152/2020/NĐ-CP",
+        "Điều 2"
+      ],
+      "notes": "Category IDs: [158], Document IDs: [1554], Difficulty: hard",
+      "original_question_id": 11,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-12",
+      "question": "Thời hạn thực hiện hòa giải, đối thoại tại Tòa án là bao lâu?",
+      "difficulty": "medium",
+      "expected_category_id": 258,
+      "expected_document_ids": [
+        3554,
+        3550
+      ],
+      "expected_chunk_ids": [
+        "doc_3554_chunk_5",
+        "doc_3550_chunk_27",
+        "doc_3554_chunk_3",
+        "doc_3550_chunk_20",
+        "doc_3550_chunk_25",
+        "doc_3550_chunk_21",
+        "doc_3550_chunk_36",
+        "doc_3550_chunk_33"
+      ],
+      "expected_answer": "Thời hạn thực hiện hòa giải, đối thoại tại Tòa án được quy định tại Điều 20 của Luật Hòa giải, đối thoại tại Tòa án số 58/2020/QH14 như sau:\n\n*   Thời hạn hòa giải, đối thoại là **20 ngày** kể từ ngày Hòa giải viên được chỉ định.\n*   Đối với vụ việc phức tạp, thời hạn này có thể được kéo dài nhưng **không quá 30 ngày**.\n*   Các bên có thể thống nhất kéo dài thời hạn hòa giải, đối thoại, nhưng **không quá 02 tháng**.\n\n**Các văn bản pháp luật liên quan:**\n- [Thông tư 03/2020/TT-TANDTC Quy định chi",
+      "expected_citations": [
+        3554,
+        "Điều 20",
+        "03/2020/TT-TANDTC",
+        3550
+      ],
+      "notes": "Category IDs: [258], Document IDs: [3554, 3550], Difficulty: medium",
+      "original_question_id": 12,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-13",
+      "question": "Công ty tôi vi phạm quy định về an toàn thông tin mạng, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3630,
+        3619,
+        3649,
+        3639,
+        3612
+      ],
+      "expected_chunk_ids": [
+        "doc_3630_chunk_74",
+        "doc_3619_chunk_59",
+        "doc_3649_chunk_45",
+        "doc_3649_chunk_61",
+        "doc_3639_chunk_137",
+        "doc_3649_chunk_62",
+        "doc_3612_chunk_23"
+      ],
+      "expected_answer": "Dựa trên các văn bản pháp luật được cung cấp, không tìm thấy quy định chung về xử phạt vi phạm hành chính về an toàn thông tin mạng áp dụng cho mọi loại hình công ty.\n\nCác quy định được tìm thấy trong tài liệu tập trung vào các lĩnh vực cụ thể:\n*   **Lĩnh vực tiền tệ và ngân hàng:** Nghị định 88/2019/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng, cụ thể tại Điều 52 về vi phạm quy định về an toàn công nghệ thông tin trong hoạt động ngân hàng. Mức phạt tiền từ 10",
+      "expected_citations": [
+        3649,
+        "71/2014/NĐ-CP",
+        3619,
+        "122/2021/NĐ-CP",
+        "Điều 6",
+        3630,
+        "41/2018/NĐ-CP",
+        "Điều 47",
+        "88/2019/NĐ-CP",
+        3639
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3630, 3619, 3649, 3639, 3612], Difficulty: hard",
+      "original_question_id": 13,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-14",
+      "question": "Quy định về thực hiện dân chủ ở cơ sở trong hoạt động hành chính",
+      "difficulty": "medium",
+      "expected_category_id": 293,
+      "expected_document_ids": [
+        3913,
+        3907,
+        3918,
+        3917
+      ],
+      "expected_chunk_ids": [
+        "doc_3913_chunk_2",
+        "doc_3913_chunk_3",
+        "doc_3907_chunk_8",
+        "doc_3918_chunk_2",
+        "doc_3917_chunk_2",
+        "doc_3918_chunk_3",
+        "doc_3917_chunk_0",
+        "doc_3913_chunk_0"
+      ],
+      "expected_answer": "Theo Thông tư 15/2020/TT-BCA Quy định về thực hiện dân chủ trong công tác quản lý hành chính về trật tự xã hội, quy định về thực hiện dân chủ trong hoạt động hành chính (cụ thể là công tác quản lý hành chính về trật tự xã hội) như sau:\n\n**1. Mục đích thực hiện dân chủ trong công tác quản lý hành chính về trật tự xã hội (Điều 2):**\n*   Phát huy quyền làm chủ của Nhân dân và bảo đảm điều kiện thuận lợi cho Nhân dân thực hiện quyền và nghĩa vụ theo quy định của pháp luật; huy động, khuyến khích Nhâ",
+      "expected_citations": [
+        3907,
+        "Điều 2",
+        "61/2023/NĐ-CP",
+        3913,
+        "92/2020/TT-BCA",
+        3917,
+        3918,
+        "126/2020/TT-BCA",
+        "15/2020/TT-BCA",
+        "Điều 3"
+      ],
+      "notes": "Category IDs: [293], Document IDs: [3913, 3907, 3918, 3917], Difficulty: medium",
+      "original_question_id": 14,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-15",
+      "question": "Tôi muốn hoạt động trong lĩnh vực báo chí nhưng không đáp ứng điều kiện, phải làm sao?",
+      "difficulty": "hard",
+      "expected_category_id": 216,
+      "expected_document_ids": [
+        2895,
+        2883,
+        2903,
+        2897
+      ],
+      "expected_chunk_ids": [
+        "doc_2895_chunk_21",
+        "doc_2895_chunk_4",
+        "doc_2883_chunk_4",
+        "doc_2903_chunk_3",
+        "doc_2897_chunk_6",
+        "doc_2895_chunk_23",
+        "doc_2895_chunk_24"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu về việc phải làm gì nếu không đáp ứng điều kiện để hoạt động trong lĩnh vực báo chí.\n\nCác tài liệu được cung cấp chủ yếu quy định về:\n*   Các điều kiện cần đáp ứng khi đề nghị cấp phép hoạt động báo nói, báo hình (Thông tư 36/2016/TT-BTTTT).\n*   Thủ tục cấp phép hoạt động thông tin, báo chí cho phóng viên nước ngoài (Nghị định 88/2012/NĐ-CP).\n*   Hồ sơ, thủ tục cấp giấy phép hoạt động báo in, tạp chí in, báo điện tử, tạp chí điện tử, trong đó yêu cầu trình ",
+      "expected_citations": [
+        2883,
+        "Điều 17",
+        "88/2012/NĐ-CP",
+        "41/2020/TT-BTTTT",
+        2895,
+        2897,
+        2903,
+        "49/2016/TT-BTTTT",
+        "36/2016/TT-BTTTT"
+      ],
+      "notes": "Category IDs: [216], Document IDs: [2895, 2883, 2903, 2897], Difficulty: hard",
+      "original_question_id": 15,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-16",
+      "question": "Điều kiện để được cấp giấy phép hoạt động trong lĩnh vực thống kê là gì?",
+      "difficulty": "medium",
+      "expected_category_id": 143,
+      "expected_document_ids": [
+        1068
+      ],
+      "expected_chunk_ids": [
+        "doc_1068_chunk_47",
+        "doc_1068_chunk_48",
+        "doc_1068_chunk_44"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu. Các văn bản pháp luật được cung cấp đều quy định về điều kiện cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán và đăng ký hành nghề dịch vụ kế toán, không đề cập đến lĩnh vực thống kê.\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 88/2015/QH13 Kế toán](lawchat://document/1068)",
+      "expected_citations": [
+        1068
+      ],
+      "notes": "Category IDs: [143], Document IDs: [1068], Difficulty: medium",
+      "original_question_id": 16,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "4-17",
+      "original_question_id": 17,
+      "question": "Tôi bị từ chối cấp phép hoạt động trong lĩnh vực môi trường, có thể khiếu nại không?",
+      "difficulty": "hard",
+      "source_file": "test_questions_4.json",
+      "notes": "Chưa có test results. Source: test_questions_4.json, Difficulty: hard"
+    },
+    {
+      "question_id": "4-18",
+      "original_question_id": 18,
+      "question": "Quy định về thuế thu nhập cá nhân trong hoạt động tôn giáo, tín ngưỡng",
+      "difficulty": "medium",
+      "source_file": "test_questions_4.json",
+      "notes": "Chưa có test results. Source: test_questions_4.json, Difficulty: medium"
+    },
+    {
+      "question_id": "4-19",
+      "original_question_id": 19,
+      "question": "Tôi muốn thành lập tổ chức trong lĩnh vực hành chính tư pháp, cần chuẩn bị những gì?",
+      "difficulty": "hard",
+      "source_file": "test_questions_4.json",
+      "notes": "Chưa có test results. Source: test_questions_4.json, Difficulty: hard"
+    },
+    {
+      "question_id": "4-20",
+      "question": "Hợp đồng hoạt động trong lĩnh vực kiểm toán nhà nước không đáp ứng quy định có hiệu lực không?",
+      "difficulty": "hard",
+      "expected_category_id": 144,
+      "expected_document_ids": [
+        1142,
+        1135,
+        1139,
+        1143,
+        1136,
+        472
+      ],
+      "expected_chunk_ids": [
+        "doc_1142_chunk_11",
+        "doc_1142_chunk_10",
+        "doc_1135_chunk_45",
+        "doc_1139_chunk_8",
+        "doc_1135_chunk_0",
+        "doc_1143_chunk_0",
+        "doc_1136_chunk_0",
+        "doc_472_chunk_6"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu về hiệu lực của hợp đồng hoạt động trong lĩnh vực kiểm toán nhà nước khi không đáp ứng quy định.\n\nTuy nhiên, đối với lĩnh vực kiểm toán độc lập đối với đơn vị có lợi ích công chúng, Thông tư 183/2013/TT-BTC quy định tại Khoản 3 Điều 12 rằng: \"Tổ chức kiểm toán, kiểm toán viên hành nghề không đăng ký thực hiện kiểm toán hoặc có đăng ký nhưng không được chấp thuận không được tiếp tục thực hiện các hợp đồng kiểm toán và các dịch vụ đảm bảo khác đã ký và không ",
+      "expected_citations": [
+        "Điều 12",
+        "183/2013/TT-BTC",
+        "202/2012/TT-BTC",
+        1135,
+        1136,
+        1139,
+        1142,
+        1143,
+        "17/2012/NĐ-CP",
+        "157/2014/TT-BTC"
+      ],
+      "notes": "Category IDs: [144, 111], Document IDs: [1142, 1135, 1139, 1143, 1136, 472], Difficulty: hard",
+      "original_question_id": 20,
+      "source_file": "test_questions_4.json"
+    },
+    {
+      "question_id": "5-1",
+      "question": "Nghị định 38/2021/NĐ-CP về xử phạt vi phạm hành chính có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3646
+      ],
+      "expected_chunk_ids": [
+        "doc_3646_chunk_0",
+        "doc_3646_chunk_1",
+        "doc_3646_chunk_2",
+        "doc_3646_chunk_3",
+        "doc_3646_chunk_4",
+        "doc_3646_chunk_5",
+        "doc_3646_chunk_6",
+        "doc_3646_chunk_7"
+      ],
+      "expected_answer": "Nghị định 38/2021/NĐ-CP về xử phạt vi phạm hành chính có hiệu lực từ ngày **01/06/2021**.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 38/2021/NĐ-CP Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa và quảng cáo.](lawchat://document/3646)",
+      "expected_citations": [
+        "38/2021/NĐ-CP",
+        3646
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3646], Difficulty: easy",
+      "original_question_id": 1,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-2",
+      "question": "Quy định về quản lý nhiệm vụ khoa học và công nghệ cấp Bộ là gì?",
+      "difficulty": "easy",
+      "expected_category_id": 150,
+      "expected_document_ids": [
+        1255,
+        1371
+      ],
+      "expected_chunk_ids": [
+        "doc_1255_chunk_2",
+        "doc_1371_chunk_56",
+        "doc_1371_chunk_55"
+      ],
+      "expected_answer": "Nhiệm vụ khoa học và công nghệ cấp bộ do Bộ hoặc cơ quan ngang bộ, cơ quan thuộc Chính phủ (bộ, ngành) quản lý.\n\nCác nhiệm vụ này bao gồm:\n*   Các nhiệm vụ đáp ứng tiêu chí của nhiệm vụ khoa học và công nghệ cấp bộ quy định tại khoản 1 Điều 26 Nghị định số 08/2014/NĐ-CP.\n*   Ưu tiên các nhiệm vụ nghiên cứu, xây dựng cơ chế, chính sách, giải pháp thúc đẩy nâng cao năng suất, chất lượng ngành.\n*   Hỗ trợ doanh nghiệp sản xuất sản phẩm, hàng hóa chủ lực của ngành áp dụng các giải pháp nâng cao năng",
+      "expected_citations": [
+        "Điều 26",
+        1255,
+        "15/2022/TT-BKHCN",
+        "45/2016/TT-BTTTT",
+        1371,
+        "08/2014/NĐ-CP"
+      ],
+      "notes": "Category IDs: [150, 154], Document IDs: [1255, 1371], Difficulty: easy",
+      "original_question_id": 2,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-3",
+      "question": "Luật 09/2017/QH14 về Du lịch được ban hành bởi cơ quan nào?",
+      "difficulty": "easy",
+      "expected_category_id": 275,
+      "expected_document_ids": [
+        3735
+      ],
+      "expected_chunk_ids": [
+        "doc_3735_chunk_0",
+        "doc_3735_chunk_1",
+        "doc_3735_chunk_2",
+        "doc_3735_chunk_3",
+        "doc_3735_chunk_4",
+        "doc_3735_chunk_5",
+        "doc_3735_chunk_6",
+        "doc_3735_chunk_7"
+      ],
+      "expected_answer": "Luật 09/2017/QH14 về Du lịch được ban hành bởi **Quốc hội**.\n\nTrích dẫn: \"Quốc hội ban hành Luật Du lịch.\" (Tài liệu: Luật 09/2017/QH14 Du lịch)\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 09/2017/QH14 Du lịch](lawchat://document/3735)",
+      "expected_citations": [
+        3735
+      ],
+      "notes": "Category IDs: [275], Document IDs: [3735], Difficulty: easy",
+      "original_question_id": 3,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-4",
+      "original_question_id": 4,
+      "question": "Tôi muốn thực hiện giám định tư pháp trong lĩnh vực tài nguyên, cần những quy định gì?",
+      "difficulty": "medium",
+      "source_file": "test_questions_5.json",
+      "notes": "Chưa có test results. Source: test_questions_5.json, Difficulty: medium"
+    },
+    {
+      "question_id": "5-5",
+      "question": "Quy định về quản lý địa danh dân cư, sơn văn, thủy văn như thế nào?",
+      "difficulty": "medium",
+      "expected_category_id": 203,
+      "expected_document_ids": [
+        2548,
+        2501,
+        2550
+      ],
+      "expected_chunk_ids": [
+        "doc_2548_chunk_6",
+        "doc_2548_chunk_4",
+        "doc_2501_chunk_31",
+        "doc_2501_chunk_17",
+        "doc_2501_chunk_16",
+        "doc_2550_chunk_7",
+        "doc_2501_chunk_23",
+        "doc_2501_chunk_1"
+      ],
+      "expected_answer": "Trong các văn bản được cung cấp, không tìm thấy quy định cụ thể về quản lý **địa danh dân cư** và **sơn văn**.\n\nTuy nhiên, đối với **thủy văn** (trong phạm vi khí tượng thủy văn), các quy định về quản lý như sau:\n\n**1. Quản lý hoạt động mạng lưới trạm khí tượng thủy văn:**\n*   Tổng cục Khí tượng thủy văn quản lý các hoạt động quan trắc, điều tra, khảo sát khí tượng thủy văn; quản lý, hướng dẫn hoạt động khí tượng thủy văn đối với các công trình phải quan trắc và cung cấp thông tin, dữ liệu khí t",
+      "expected_citations": [
+        "13/2023/TT-BTNMT",
+        2501,
+        2548,
+        "Điều 13",
+        2550,
+        "Điều 28",
+        "10/2023/QĐ-TTg"
+      ],
+      "notes": "Category IDs: [203], Document IDs: [2548, 2501, 2550], Difficulty: medium",
+      "original_question_id": 5,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-6",
+      "question": "Công ty tôi muốn hoạt động chiết khấu công cụ chuyển nhượng, cần những thủ tục gì?",
+      "difficulty": "medium",
+      "expected_category_id": 164,
+      "expected_document_ids": [
+        1731,
+        1729
+      ],
+      "expected_chunk_ids": [
+        "doc_1731_chunk_2",
+        "doc_1731_chunk_3",
+        "doc_1729_chunk_3",
+        "doc_1729_chunk_6",
+        "doc_1729_chunk_8",
+        "doc_1729_chunk_4",
+        "doc_1729_chunk_11",
+        "doc_1731_chunk_7"
+      ],
+      "expected_answer": "Theo các văn bản pháp luật được cung cấp:\n\nHoạt động chiết khấu công cụ chuyển nhượng được quy định dành cho **tổ chức tín dụng, chi nhánh ngân hàng nước ngoài đối với khách hàng** (Thông tư 04/2013/TT-NHNN).\n\nCác tài liệu này mô tả các nguyên tắc, điều kiện và phương thức chiết khấu khi hoạt động này được thực hiện bởi tổ chức tín dụng, chi nhánh ngân hàng nước ngoài, cụ thể:\n\n*   **Nguyên tắc chiết khấu:** Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài thực hiện chiết khấu theo thỏa thuận vớ",
+      "expected_citations": [
+        1729,
+        1731,
+        "Điều 10",
+        "Điều 5",
+        "04/2013/TT-NHNN",
+        "Điều 7"
+      ],
+      "notes": "Category IDs: [164], Document IDs: [1731, 1729], Difficulty: medium",
+      "original_question_id": 6,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-7",
+      "question": "Tổ chức có quyền tự do thành lập, sáp nhập trong lĩnh vực pháp luật không?",
+      "difficulty": "medium",
+      "expected_category_id": 108,
+      "expected_document_ids": [
+        344,
+        345,
+        649
+      ],
+      "expected_chunk_ids": [
+        "doc_344_chunk_40",
+        "doc_344_chunk_16",
+        "doc_345_chunk_30",
+        "doc_649_chunk_35",
+        "doc_345_chunk_12",
+        "doc_344_chunk_18",
+        "doc_345_chunk_11"
+      ],
+      "expected_answer": "Dựa trên các văn bản pháp luật được cung cấp:\n\nTổ chức **không có quyền tự do** thành lập, sáp nhập trong lĩnh vực pháp luật mà phải tuân thủ các quy định của pháp luật.\n\nCụ thể:\n\n*   **Về thành lập:**\n    *   Tổ chức hành nghề luật sư (bao gồm Văn phòng luật sư và Công ty luật) được tổ chức, hoạt động theo quy định của Luật Luật sư và các quy định pháp luật liên quan. Một luật sư chỉ được thành lập hoặc tham gia thành lập một tổ chức hành nghề luật sư tại địa phương nơi có Đoàn luật sư mà luật ",
+      "expected_citations": [
+        "Điều 33",
+        "123/2013/NĐ-CP",
+        649,
+        "Điều 82",
+        "Điều 77",
+        344,
+        345,
+        "Điều 32"
+      ],
+      "notes": "Category IDs: [108, 125], Document IDs: [344, 345, 649], Difficulty: medium",
+      "original_question_id": 7,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-8",
+      "question": "Tôi là doanh nghiệp, vi phạm quy định về quản lý sỹ quan kiểm tra tàu biển, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 269,
+      "expected_document_ids": [
+        3646
+      ],
+      "expected_chunk_ids": [
+        "doc_3646_chunk_117"
+      ],
+      "expected_answer": "Không tìm thấy quy định về xử phạt vi phạm quy định về quản lý sỹ quan kiểm tra tàu biển trong tài liệu được cung cấp. Tài liệu này là Nghị định 38/2021/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa và quảng cáo.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 38/2021/NĐ-CP Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa và quảng cáo.](lawchat://document/3646)",
+      "expected_citations": [
+        "38/2021/NĐ-CP",
+        3646
+      ],
+      "notes": "Category IDs: [269], Document IDs: [3646], Difficulty: hard",
+      "original_question_id": 8,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-9",
+      "question": "Căn cứ pháp lý nào quy định về thanh toán chi phí hồi hương cho thuyền viên?",
+      "difficulty": "medium",
+      "expected_category_id": 135,
+      "expected_document_ids": [
+        906,
+        846,
+        848
+      ],
+      "expected_chunk_ids": [
+        "doc_906_chunk_0",
+        "doc_906_chunk_1",
+        "doc_906_chunk_2",
+        "doc_846_chunk_50",
+        "doc_846_chunk_47",
+        "doc_848_chunk_5",
+        "doc_906_chunk_4",
+        "doc_906_chunk_3"
+      ],
+      "expected_answer": "Căn cứ pháp lý quy định về thanh toán chi phí hồi hương cho thuyền viên bao gồm:\n\n1.  **Bộ luật Hàng hải Việt Nam số 95/2015/QH13 ngày 25 tháng 11 năm 2015 của Quốc hội**, cụ thể là:\n    *   **Điều 66. Hồi hương thuyền viên**: Quy định trách nhiệm của chủ tàu trong việc bố trí và thanh toán chi phí hồi hương cho thuyền viên trong các trường hợp cụ thể (Khoản 1), các loại chi phí hồi hương do chủ tàu thanh toán (Khoản 3), và trách nhiệm bảo đảm tài chính của chủ tàu (Khoản 7).\n    *   **Khoản 9 Đ",
+      "expected_citations": [
+        "121/2014/NĐ-CP",
+        "119/2007/QĐ-TTg",
+        "Điều 2",
+        906,
+        "Điều 1",
+        846,
+        848,
+        "215/2013/NĐ-CP",
+        "38/2017/TT-BTC",
+        "Điều 66"
+      ],
+      "notes": "Category IDs: [135], Document IDs: [906, 846, 848], Difficulty: medium",
+      "original_question_id": 9,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-10",
+      "question": "Hợp đồng hoạt động trong lĩnh vực bảo hiểm cần có những điều khoản bắt buộc nào?",
+      "difficulty": "hard",
+      "expected_category_id": 101,
+      "expected_document_ids": [
+        151,
+        150,
+        152
+      ],
+      "expected_chunk_ids": [
+        "doc_151_chunk_6",
+        "doc_150_chunk_18",
+        "doc_151_chunk_9",
+        "doc_150_chunk_10",
+        "doc_151_chunk_8",
+        "doc_150_chunk_116",
+        "doc_151_chunk_38",
+        "doc_152_chunk_3"
+      ],
+      "expected_answer": "Theo Điều 17 của Luật 08/2022/QH15 Luật Kinh doanh bảo hiểm, hợp đồng bảo hiểm phải có những nội dung chủ yếu sau đây:\n\n*   Bên mua bảo hiểm, người được bảo hiểm, người thụ hưởng (nếu có), doanh nghiệp bảo hiểm hoặc chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài.\n*   Đối tượng bảo hiểm.\n*   Số tiền bảo hiểm hoặc giá trị tài sản được bảo hiểm hoặc giới hạn trách nhiệm bảo hiểm.\n*   Phạm vi hoặc quyền lợi bảo hiểm; quy tắc, điều kiện, điều khoản bảo hiểm.\n*   Quyền và nghĩa vụ của doanh n",
+      "expected_citations": [
+        "Điều 17",
+        "73/2016/NĐ-CP",
+        150,
+        151,
+        152
+      ],
+      "notes": "Category IDs: [101], Document IDs: [151, 150, 152], Difficulty: hard",
+      "original_question_id": 10,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-11",
+      "question": "Tôi là tổ chức nước ngoài, muốn hoạt động trong lĩnh vực xây dựng, nhà ở, đô thị ở Việt Nam có được không?",
+      "difficulty": "hard",
+      "expected_category_id": 158,
+      "expected_document_ids": [
+        1554
+      ],
+      "expected_chunk_ids": [
+        "doc_1554_chunk_5",
+        "doc_1554_chunk_4",
+        "doc_1554_chunk_29",
+        "doc_1554_chunk_1",
+        "doc_1554_chunk_3"
+      ],
+      "expected_answer": "Theo quy định tại điểm đ khoản 3 Điều 2 Nghị định 152/2020/NĐ-CP, Văn phòng đại diện tại Việt Nam của tổ chức nước ngoài được phép hoạt động trong các lĩnh vực: kinh tế, thương mại, tài chính, ngân hàng, bảo hiểm, khoa học - kỹ thuật, văn hóa, giáo dục, y tế, tư vấn pháp luật nước ngoài.\n\nTrong các lĩnh lĩnh vực được liệt kê này, không tìm thấy quy định cho phép tổ chức nước ngoài hoạt động trong lĩnh vực xây dựng, nhà ở, đô thị.\n\nKhông tìm thấy quy định trong tài liệu cho phép tổ chức nước ngoà",
+      "expected_citations": [
+        1554,
+        "152/2020/NĐ-CP",
+        "Điều 2"
+      ],
+      "notes": "Category IDs: [158], Document IDs: [1554], Difficulty: hard",
+      "original_question_id": 11,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-12",
+      "question": "Thời hạn thực hiện khiếu nại trong lĩnh vực giáo dục, đào tạo là bao lâu?",
+      "difficulty": "medium",
+      "expected_category_id": 146,
+      "expected_document_ids": [
+        1181,
+        1175,
+        1178
+      ],
+      "expected_chunk_ids": [
+        "doc_1181_chunk_20",
+        "doc_1181_chunk_8",
+        "doc_1175_chunk_32",
+        "doc_1178_chunk_12",
+        "doc_1175_chunk_8"
+      ],
+      "expected_answer": "Thời hạn thực hiện khiếu nại trong lĩnh vực giáo dục, đào tạo (đối với quyết định hành chính, hành vi hành chính) là **90 ngày**, kể từ ngày nhận được quyết định hành chính hoặc biết được quyết định hành chính, hành vi hành chính.\n\nTrường hợp người khiếu nại không thực hiện được quyền khiếu nại theo đúng thời hiệu vì ốm đau, thiên tai, địch họa, đi công tác, học tập ở nơi xa hoặc vì những trở ngại khách quan khác thì thời gian có trở ngại đó không tính vào thời hiệu khiếu nại.\n\n(Căn cứ Điều 9 củ",
+      "expected_citations": [
+        "218/2013/TT-BQP",
+        "Điều 9",
+        "124/2020/NĐ-CP",
+        1175,
+        1178,
+        1181
+      ],
+      "notes": "Category IDs: [146], Document IDs: [1181, 1175, 1178], Difficulty: medium",
+      "original_question_id": 12,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-13",
+      "question": "Công ty tôi vi phạm quy định về bảo vệ công trình quan trọng liên quan đến an ninh quốc gia, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "expected_category_id": 90,
+      "expected_document_ids": [
+        22,
+        21
+      ],
+      "expected_chunk_ids": [
+        "doc_22_chunk_10",
+        "doc_21_chunk_1",
+        "doc_21_chunk_2",
+        "doc_22_chunk_5",
+        "doc_21_chunk_4",
+        "doc_21_chunk_3",
+        "doc_22_chunk_2",
+        "doc_22_chunk_3"
+      ],
+      "expected_answer": "Theo Điều 10 của Pháp lệnh 32/2007/PL-UBTVQH11 về Bảo vệ công trình quan trọng liên quan đến an ninh quốc gia, công ty (là một tổ chức) có hành vi vi phạm quy định của pháp luật về bảo vệ công trình quan trọng liên quan đến an ninh quốc gia thì tùy theo tính chất, mức độ vi phạm mà bị:\n\n*   Xử lý kỷ luật.\n*   Xử phạt hành chính.\n*   Truy cứu trách nhiệm hình sự.\n\nNgoài ra, nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 126/20",
+      "expected_citations": [
+        "126/2008/NĐ-CP",
+        "Điều 10",
+        21,
+        22,
+        "32/2007/PL-UBTVQH11"
+      ],
+      "notes": "Category IDs: [90], Document IDs: [22, 21], Difficulty: hard",
+      "original_question_id": 13,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-14",
+      "question": "Quy định về đo đạc và bản đồ trong hoạt động khoa học công nghệ",
+      "difficulty": "medium",
+      "expected_category_id": 202,
+      "expected_document_ids": [
+        2379
+      ],
+      "expected_chunk_ids": [
+        "doc_2379_chunk_7",
+        "doc_2379_chunk_30",
+        "doc_2379_chunk_55",
+        "doc_2379_chunk_5",
+        "doc_2379_chunk_22",
+        "doc_2379_chunk_35",
+        "doc_2379_chunk_34",
+        "doc_2379_chunk_29"
+      ],
+      "expected_answer": "Quy định về đo đạc và bản đồ trong hoạt động khoa học công nghệ được nêu tại Luật 27/2018/QH14 Đo đạc và bản đồ như sau:\n\n1.  **Quy định chung:** Hoạt động khoa học và công nghệ về đo đạc và bản đồ được thực hiện theo quy định của Luật này và pháp luật về khoa học và công nghệ (Khoản 1 Điều 7 Luật 27/2018/QH14).\n\n2.  **Các hoạt động được Nhà nước ưu tiên:** Nhà nước ưu tiên các hoạt động khoa học và công nghệ về đo đạc và bản đồ bao gồm (Khoản 2 Điều 7 Luật 27/2018/QH14):\n    *   Nghiên cứu cơ s",
+      "expected_citations": [
+        "Điều 5",
+        "Điều 33",
+        2379,
+        "Điều 7"
+      ],
+      "notes": "Category IDs: [202], Document IDs: [2379], Difficulty: medium",
+      "original_question_id": 14,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-15",
+      "question": "Tôi muốn hoạt động trong lĩnh vực thú y nhưng không đáp ứng điều kiện, phải làm sao?",
+      "difficulty": "hard",
+      "expected_category_id": 186,
+      "expected_document_ids": [
+        2135,
+        2134
+      ],
+      "expected_chunk_ids": [
+        "doc_2135_chunk_24",
+        "doc_2134_chunk_131",
+        "doc_2135_chunk_23"
+      ],
+      "expected_answer": "Để hoạt động trong lĩnh vực thú y, tổ chức, cá nhân phải đáp ứng các điều kiện về chuyên môn theo quy định tại Điều 108 của Luật thú y (được quy định chi tiết tại Điều 21 của Nghị định 35/2016/NĐ-CP).\n\nCác yêu cầu về chuyên môn bao gồm:\n1.  **Người hành nghề chẩn đoán, chữa bệnh, phẫu thuật động vật, tư vấn:** Tối thiểu phải có bằng trung cấp chuyên ngành thú y, chăn nuôi thú y hoặc trung cấp nuôi trồng thủy sản, bệnh học thủy sản (đối với thú y thủy sản).\n2.  **Người hành nghề tiêm phòng cho độ",
+      "expected_citations": [
+        "Điều 21",
+        "Điều 108",
+        2134,
+        2135,
+        "35/2016/NĐ-CP"
+      ],
+      "notes": "Category IDs: [186], Document IDs: [2135, 2134], Difficulty: hard",
+      "original_question_id": 15,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-16",
+      "question": "Điều kiện để được cấp giấy phép hoạt động trong lĩnh vực kế toán, kiểm toán là gì?",
+      "difficulty": "medium",
+      "expected_category_id": 143,
+      "expected_document_ids": [
+        1068
+      ],
+      "expected_chunk_ids": [
+        "doc_1068_chunk_47",
+        "doc_1068_chunk_48",
+        "doc_1068_chunk_43",
+        "doc_1068_chunk_50",
+        "doc_1068_chunk_44",
+        "doc_1068_chunk_45"
+      ],
+      "expected_answer": "Để được cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán, các loại hình doanh nghiệp phải đáp ứng các điều kiện sau đây, theo Điều 60 của Luật 88/2015/QH13 Kế toán:\n\n**1. Đối với Công ty trách nhiệm hữu hạn hai thành viên trở lên:**\n*   Có Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư hoặc giấy tờ khác có giá trị tương đương theo quy định của pháp luật.\n*   Có ít nhất hai thành viên góp vốn là kế toán viên hành nghề.\n*   Người đại diện theo pháp luật, giám đốc h",
+      "expected_citations": [
+        1068,
+        "Điều 60"
+      ],
+      "notes": "Category IDs: [143], Document IDs: [1068], Difficulty: medium",
+      "original_question_id": 16,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-17",
+      "original_question_id": 17,
+      "question": "Tôi bị từ chối cấp phép hoạt động trong lĩnh vực tổ chức chính trị - xã hội, có thể khiếu nại không?",
+      "difficulty": "hard",
+      "source_file": "test_questions_5.json",
+      "notes": "Chưa có test results. Source: test_questions_5.json, Difficulty: hard"
+    },
+    {
+      "question_id": "5-18",
+      "question": "Quy định về điều tra thống kê tiền tệ, ngân hàng và ngoại hối",
+      "difficulty": "medium",
+      "expected_category_id": 215,
+      "expected_document_ids": [
+        2843,
+        2827
+      ],
+      "expected_chunk_ids": [
+        "doc_2843_chunk_1",
+        "doc_2843_chunk_10",
+        "doc_2843_chunk_0",
+        "doc_2843_chunk_2",
+        "doc_2843_chunk_9",
+        "doc_2843_chunk_3",
+        "doc_2827_chunk_12",
+        "doc_2827_chunk_15"
+      ],
+      "expected_answer": "Quy định về điều tra thống kê tiền tệ, ngân hàng và ngoại hối được nêu tại Thông tư 26/2018/TT-NHNN Quy định về điều tra thống kê tiền tệ, ngân hàng và ngoại hối ngoài Chương trình điều tra thống kê quốc gia, cụ thể như sau:\n\n**1. Phạm vi điều chỉnh và đối tượng áp dụng:**\n*   Thông tư này quy định về điều tra thống kê tiền tệ, ngân hàng và ngoại hối (gọi là điều tra thống kê tiền tệ và ngân hàng) **ngoài Chương trình điều tra thống kê quốc gia** (Điều 1).\n*   Đối tượng áp dụng bao gồm: Đơn vị t",
+      "expected_citations": [
+        "Điều 3",
+        "Điều 68",
+        "Điều 2",
+        "Điều 4",
+        "Điều 17",
+        "Điều 18",
+        "Điều 1",
+        2827,
+        "Điều 16",
+        "26/2018/TT-NHNN"
+      ],
+      "notes": "Category IDs: [215], Document IDs: [2843, 2827], Difficulty: medium",
+      "original_question_id": 18,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-19",
+      "question": "Tôi muốn thành lập tổ chức trong lĩnh vực giáo dục, đào tạo, cần chuẩn bị những gì?",
+      "difficulty": "hard",
+      "expected_category_id": 157,
+      "expected_document_ids": [
+        1460,
+        1549,
+        1468
+      ],
+      "expected_chunk_ids": [
+        "doc_1460_chunk_8",
+        "doc_1460_chunk_4",
+        "doc_1460_chunk_5",
+        "doc_1460_chunk_3",
+        "doc_1549_chunk_13",
+        "doc_1468_chunk_13",
+        "doc_1468_chunk_14",
+        "doc_1460_chunk_6"
+      ],
+      "expected_answer": "Để thành lập tổ chức trong lĩnh vực giáo dục, đào tạo, cụ thể là **giáo dục nghề nghiệp**, bạn cần chuẩn bị các điều kiện và hồ sơ theo quy định tại **Nghị định 143/2016/NĐ-CP Quy định điều kiện đầu tư và hoạt động trong lĩnh vực giáo dục nghề nghiệp**.\n\n**I. Điều kiện thành lập, cho phép thành lập cơ sở giáo dục nghề nghiệp (Điều 3 Nghị định 143/2016/NĐ-CP):**\n\n1.  **Đề án thành lập:** Phải có đề án thành lập.\n2.  **Phù hợp quy hoạch:** Phù hợp với quy hoạch mạng lưới cơ sở giáo dục nghề nghiệp",
+      "expected_citations": [
+        "Điều 14",
+        "Điều 4",
+        "Điều 18",
+        "Điều 6",
+        1549,
+        "01/2024/TT-BLĐTBXH",
+        "Điều 7",
+        1460,
+        "42/2015/TT-BLĐTBXH",
+        "Điều 3"
+      ],
+      "notes": "Category IDs: [157], Document IDs: [1460, 1549, 1468], Difficulty: hard",
+      "original_question_id": 19,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "5-20",
+      "question": "Hợp đồng hoạt động trong lĩnh vực du lịch không đáp ứng quy định có hiệu lực không?",
+      "difficulty": "hard",
+      "expected_category_id": 275,
+      "expected_document_ids": [
+        3735,
+        3745,
+        3736,
+        3747,
+        3744
+      ],
+      "expected_chunk_ids": [
+        "doc_3735_chunk_28",
+        "doc_3735_chunk_0",
+        "doc_3745_chunk_7",
+        "doc_3736_chunk_0",
+        "doc_3747_chunk_0",
+        "doc_3744_chunk_0",
+        "doc_3745_chunk_0",
+        "doc_3744_chunk_16"
+      ],
+      "expected_answer": "Các văn bản pháp luật được cung cấp quy định về hình thức và nội dung bắt buộc của hợp đồng lữ hành và hợp đồng đại lý lữ hành. Cụ thể:\n\n*   Hợp đồng lữ hành phải được lập thành văn bản và có các nội dung quy định tại Điều 39 Luật Du lịch 09/2017/QH14.\n*   Hợp đồng đại lý lữ hành phải được lập thành văn bản và có các nội dung quy định tại Điều 41 Luật Du lịch 09/2017/QH14.\n\nTuy nhiên, các tài liệu được cung cấp **không quy định rõ** về việc hợp đồng hoạt động trong lĩnh vực du lịch không đáp ứng",
+      "expected_citations": [
+        3744,
+        3745,
+        "06/2017/TT-BVHTTDL",
+        3747,
+        "13/2019/TT-BVHTTDL",
+        "01/2025/TT-BVHTTDL",
+        "Điều 39",
+        "04/2024/TT-BVHTTDL",
+        "168/2017/NĐ-CP",
+        3735
+      ],
+      "notes": "Category IDs: [275], Document IDs: [3735, 3745, 3736, 3747, 3744], Difficulty: hard",
+      "original_question_id": 20,
+      "source_file": "test_questions_5.json"
+    },
+    {
+      "question_id": "6-1",
+      "question": "Vùng biển đặc quyền kinh tế nước ta rộng bao nhiêu hải lý",
+      "difficulty": "easy",
+      "expected_category_id": 92,
+      "expected_document_ids": [
+        42
+      ],
+      "expected_chunk_ids": [
+        "doc_42_chunk_5",
+        "doc_42_chunk_3",
+        "doc_42_chunk_1",
+        "doc_42_chunk_22",
+        "doc_42_chunk_4",
+        "doc_42_chunk_24"
+      ],
+      "expected_answer": "Vùng đặc quyền kinh tế của nước ta có chiều rộng 200 hải lý tính từ đường cơ sở, hợp với lãnh hải.\n\n**Căn cứ:** Điều 15 Luật Biển Việt Nam số 18/2012/QH13.\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 18/2012/QH13 Biển Việt Nam](lawchat://document/42)",
+      "expected_citations": [
+        42,
+        "Điều 15"
+      ],
+      "notes": "Category IDs: [92], Document IDs: [42], Difficulty: easy",
+      "original_question_id": 1,
+      "source_file": "test_questions_6.json"
+    },
+    {
+      "question_id": "6-2",
+      "question": "Luật Dân sự 2015 có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "expected_category_id": 212,
+      "expected_document_ids": [
+        2741,
+        2753,
+        2740,
+        3442
+      ],
+      "expected_chunk_ids": [
+        "doc_2741_chunk_0",
+        "doc_2753_chunk_0",
+        "doc_2741_chunk_95",
+        "doc_2740_chunk_0",
+        "doc_3442_chunk_4"
+      ],
+      "expected_answer": "Không tìm thấy quy định trong tài liệu. Các văn bản được cung cấp chủ yếu liên quan đến Luật Thi hành án dân sự, Bộ luật Tố tụng dân sự 2015 và Bộ luật Tố tụng hình sự 2015, nhưng không đề cập đến hiệu lực của Luật Dân sự 2015.\n\n**Các văn bản pháp luật liên quan:**\n- [Nghị định 62/2015/NĐ-CP Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi hành án dân sự](lawchat://document/2741)\n- [Thông tư liên tịch 11/2016/TTLT-BTP-TANDTC-VKSNDT Quy định một số vấn đề về thủ tục thi hành án dâ",
+      "expected_citations": [
+        2753,
+        "62/2015/NĐ-CP",
+        "01/2020/TTLT-VKSNDTC",
+        "11/2016/TTLT-BTP",
+        3442,
+        2740,
+        2741
+      ],
+      "notes": "Category IDs: [212, 241], Document IDs: [2741, 2753, 2740, 3442], Difficulty: easy",
+      "original_question_id": 2,
+      "source_file": "test_questions_6.json"
+    },
+    {
+      "question_id": "6-3",
+      "question": "Luật 32/2004/QH11 An ninh Quốc gia có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "expected_category_id": 88,
+      "expected_document_ids": [
+        2
+      ],
+      "expected_chunk_ids": [
+        "doc_2_chunk_0",
+        "doc_2_chunk_1",
+        "doc_2_chunk_2",
+        "doc_2_chunk_3",
+        "doc_2_chunk_4",
+        "doc_2_chunk_5",
+        "doc_2_chunk_6",
+        "doc_2_chunk_7"
+      ],
+      "expected_answer": "Luật 32/2004/QH11 An ninh Quốc gia có hiệu lực từ ngày **01/07/2005**.\n\n**Các văn bản pháp luật liên quan:**\n- [Luật 32/2004/QH11 An ninh Quốc gia](lawchat://document/2)",
+      "expected_citations": [
+        2
+      ],
+      "notes": "Category IDs: [88], Document IDs: [2], Difficulty: easy",
+      "original_question_id": 3,
+      "source_file": "test_questions_6.json"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "description": "Bộ câu hỏi test hệ thống tư vấn pháp lý từ dễ đến phức tạp",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Việt Nam có bao nhiêu tỉnh thành?",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi thực tế đơn giản - test factual question detection"
+    },
+    {
+      "id": 2,
+      "question": "Luật Dân sự 2015 có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi về ngày hiệu lực - test factual với date"
+    },
+    {
+      "id": 3,
+      "question": "Độ tuổi kết hôn tối thiểu ở Việt Nam là bao nhiêu?",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi về số liệu pháp lý cơ bản"
+    },
+    {
+      "id": 4,
+      "question": "Thời hạn nộp đơn khởi kiện là bao lâu?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "fact_extraction", "irac_reasoning"],
+      "description": "Câu hỏi về thủ tục pháp lý - test intent và facts"
+    },
+    {
+      "id": 5,
+      "question": "Tôi muốn biết quy định về quyền thừa kế của con nuôi",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về quyền pháp lý - test scenario building"
+    },
+    {
+      "id": 6,
+      "question": "Công ty tôi muốn thành lập chi nhánh ở Hà Nội, cần những thủ tục gì?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về thủ tục doanh nghiệp - test full pipeline"
+    },
+    {
+      "id": 7,
+      "question": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "irac_reasoning", "citations"],
+      "description": "Câu hỏi về quyền lao động - test IRAC với citations"
+    },
+    {
+      "id": 8,
+      "question": "Tôi bị tai nạn giao thông, người gây tai nạn bỏ chạy. Tôi cần làm gì?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps"],
+      "description": "Câu hỏi phức tạp với tình huống cụ thể - test full IRAC"
+    },
+    {
+      "id": 9,
+      "question": "Căn cứ pháp lý nào quy định về quyền sở hữu trí tuệ đối với phần mềm?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "irac_reasoning", "citations"],
+      "description": "Câu hỏi về căn cứ pháp lý - test citation extraction"
+    },
+    {
+      "id": 10,
+      "question": "Hợp đồng mua bán nhà đất cần có những điều khoản bắt buộc nào?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về hợp đồng - test IRAC với multiple rules"
+    },
+    {
+      "id": 11,
+      "question": "Tôi là người nước ngoài, muốn mua nhà ở Việt Nam có được không?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "uncertainty"],
+      "description": "Câu hỏi phức tạp với nhiều điều kiện - test uncertainty detection"
+    },
+    {
+      "id": 12,
+      "question": "Thời hiệu khởi kiện tranh chấp đất đai là bao lâu?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "fact_extraction", "irac_reasoning"],
+      "description": "Câu hỏi về thời hiệu - test legal reasoning"
+    },
+    {
+      "id": 13,
+      "question": "Công ty tôi vi phạm về thuế, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps"],
+      "description": "Câu hỏi về xử phạt - test IRAC với application và conclusion"
+    },
+    {
+      "id": 14,
+      "question": "Quy định về bảo hiểm xã hội cho người lao động tự do",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về bảo hiểm - test scenario với specific group"
+    },
+    {
+      "id": 15,
+      "question": "Tôi muốn ly hôn nhưng vợ/chồng không đồng ý, phải làm sao?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps", "uncertainty"],
+      "description": "Câu hỏi phức tạp về gia đình - test full pipeline với follow-up"
+    },
+    {
+      "id": 16,
+      "question": "Điều kiện để được cấp giấy phép kinh doanh là gì?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "fact_extraction", "irac_reasoning"],
+      "description": "Câu hỏi về điều kiện - test rule extraction"
+    },
+    {
+      "id": 17,
+      "question": "Tôi bị sa thải trái pháp luật, có thể yêu cầu bồi thường không?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps"],
+      "description": "Câu hỏi phức tạp về lao động - test IRAC với application"
+    },
+    {
+      "id": 18,
+      "question": "Quy định về quyền sử dụng đất của hộ gia đình",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về quyền sử dụng đất - test legal domain classification"
+    },
+    {
+      "id": 19,
+      "question": "Tôi muốn thành lập doanh nghiệp tư nhân, cần chuẩn bị những gì?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps"],
+      "description": "Câu hỏi về thủ tục thành lập - test full pipeline với next steps"
+    },
+    {
+      "id": 20,
+      "question": "Hợp đồng lao động không có chữ ký của người lao động có hiệu lực không?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "uncertainty"],
+      "description": "Câu hỏi phức tạp về hiệu lực hợp đồng - test IRAC với uncertainty"
+    }
+  ],
+  "test_categories": {
+    "easy": {
+      "count": 3,
+      "description": "Câu hỏi thực tế đơn giản, không cần IRAC framework",
+      "expected_response_time": "< 5s"
+    },
+    "medium": {
+      "count": 8,
+      "description": "Câu hỏi pháp lý cần IRAC reasoning cơ bản",
+      "expected_response_time": "< 15s"
+    },
+    "hard": {
+      "count": 9,
+      "description": "Câu hỏi phức tạp cần full IRAC pipeline với scenario building",
+      "expected_response_time": "< 30s"
+    }
+  },
+  "usage": {
+    "description": "File này chứa bộ câu hỏi test hệ thống tư vấn pháp lý",
+    "how_to_use": [
+      "1. Import file JSON này vào test script",
+      "2. Lặp qua từng câu hỏi và gửi đến API /api/chat/gemini",
+      "3. Kiểm tra response có đúng expected_features không",
+      "4. Đo thời gian phản hồi và so sánh với expected_response_time",
+      "5. Kiểm tra chất lượng câu trả lời (citations, confidence, format)"
+    ],
+    "test_script_example": "python test_system.py --questions test_questions.json"
+  }
+}

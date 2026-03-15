@@ -1,0 +1,201 @@
+{
+  "description": "Bộ câu hỏi test hệ thống tư vấn pháp lý từ dễ đến phức tạp - Dựa trên dữ liệu thực tế từ phapdien_db (Batch 4)",
+  "version": "4.0",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Luật 87/2015/QH13 về hoạt động giám sát của Quốc hội và Hội đồng nhân dân có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi về ngày hiệu lực của văn bản cụ thể"
+    },
+    {
+      "id": 2,
+      "question": "Quy định về quản lý an toàn thực phẩm thuộc trách nhiệm của Bộ Công Thương là gì?",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi về định nghĩa/quy định cơ bản"
+    },
+    {
+      "id": 3,
+      "question": "Thông tư 03/2015/TT-BVHTTDL quy định về giám định khoa học đánh giá trình độ tập luyện được ban hành bởi cơ quan nào?",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi về thông tin cơ bản của văn bản"
+    },
+    {
+      "id": 4,
+      "question": "Tôi muốn thực hiện quy trình duy tu, bảo dưỡng đê điều, cần những quy định gì?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "fact_extraction", "irac_reasoning"],
+      "description": "Câu hỏi về quy trình bảo dưỡng - test intent và facts"
+    },
+    {
+      "id": 5,
+      "question": "Quy định về điều kiện an toàn trong lĩnh vực nông nghiệp như thế nào?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về quy định an toàn - test scenario building"
+    },
+    {
+      "id": 6,
+      "question": "Công ty tôi muốn sử dụng thuốc, nguyên liệu làm thuốc, cần những thủ tục gì?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về thủ tục dược phẩm - test full pipeline"
+    },
+    {
+      "id": 7,
+      "question": "Ngân hàng có quyền tự do quản lý hoạt động chiết khấu công cụ chuyển nhượng không?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "irac_reasoning", "citations"],
+      "description": "Câu hỏi về quyền ngân hàng - test IRAC với citations"
+    },
+    {
+      "id": 8,
+      "question": "Tôi là doanh nghiệp, vi phạm quy định về thực hiện Quy tắc xuất xứ, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps"],
+      "description": "Câu hỏi phức tạp về xử phạt xuất xứ - test full IRAC"
+    },
+    {
+      "id": 9,
+      "question": "Căn cứ pháp lý nào quy định về chức năng, nhiệm vụ và quyền hạn của chi cục dược?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "irac_reasoning", "citations"],
+      "description": "Câu hỏi về căn cứ pháp lý - test citation extraction"
+    },
+    {
+      "id": 10,
+      "question": "Hợp đồng hoạt động giám sát của Quốc hội cần có những điều khoản bắt buộc nào?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về hợp đồng giám sát - test IRAC với multiple rules"
+    },
+    {
+      "id": 11,
+      "question": "Tôi là tổ chức nước ngoài, muốn hoạt động trong lĩnh vực giao thông vận tải ở Việt Nam có được không?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "uncertainty"],
+      "description": "Câu hỏi phức tạp về hoạt động nước ngoài - test uncertainty detection"
+    },
+    {
+      "id": 12,
+      "question": "Thời hạn thực hiện hòa giải, đối thoại tại Tòa án là bao lâu?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "fact_extraction", "irac_reasoning"],
+      "description": "Câu hỏi về thời hạn hòa giải - test legal reasoning"
+    },
+    {
+      "id": 13,
+      "question": "Công ty tôi vi phạm quy định về an toàn thông tin mạng, sẽ bị xử phạt như thế nào?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps"],
+      "description": "Câu hỏi về xử phạt an toàn thông tin - test IRAC với application và conclusion"
+    },
+    {
+      "id": 14,
+      "question": "Quy định về thực hiện dân chủ ở cơ sở trong hoạt động hành chính",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về dân chủ cơ sở - test scenario với specific domain"
+    },
+    {
+      "id": 15,
+      "question": "Tôi muốn hoạt động trong lĩnh vực báo chí nhưng không đáp ứng điều kiện, phải làm sao?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps", "uncertainty"],
+      "description": "Câu hỏi phức tạp về điều kiện báo chí - test full pipeline với follow-up"
+    },
+    {
+      "id": 16,
+      "question": "Điều kiện để được cấp giấy phép hoạt động trong lĩnh vực thống kê là gì?",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "fact_extraction", "irac_reasoning"],
+      "description": "Câu hỏi về điều kiện cấp phép - test rule extraction"
+    },
+    {
+      "id": 17,
+      "question": "Tôi bị từ chối cấp phép hoạt động trong lĩnh vực môi trường, có thể khiếu nại không?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps"],
+      "description": "Câu hỏi phức tạp về khiếu nại môi trường - test IRAC với application"
+    },
+    {
+      "id": 18,
+      "question": "Quy định về thuế thu nhập cá nhân trong hoạt động tôn giáo, tín ngưỡng",
+      "difficulty": "medium",
+      "category": "legal",
+      "expected_features": ["intent_classification", "scenario_building", "irac_reasoning"],
+      "description": "Câu hỏi về thuế cá nhân - test legal domain classification"
+    },
+    {
+      "id": 19,
+      "question": "Tôi muốn thành lập tổ chức trong lĩnh vực hành chính tư pháp, cần chuẩn bị những gì?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "next_steps"],
+      "description": "Câu hỏi về thủ tục thành lập - test full pipeline với next steps"
+    },
+    {
+      "id": 20,
+      "question": "Hợp đồng hoạt động trong lĩnh vực kiểm toán nhà nước không đáp ứng quy định có hiệu lực không?",
+      "difficulty": "hard",
+      "category": "complex",
+      "expected_features": ["intent_classification", "fact_extraction", "scenario_building", "irac_reasoning", "uncertainty"],
+      "description": "Câu hỏi phức tạp về hiệu lực hợp đồng - test IRAC với uncertainty"
+    }
+  ],
+  "test_categories": {
+    "easy": {
+      "count": 3,
+      "description": "Câu hỏi thực tế đơn giản về thông tin văn bản, không cần IRAC framework",
+      "expected_response_time": "< 5s"
+    },
+    "medium": {
+      "count": 9,
+      "description": "Câu hỏi pháp lý cần IRAC reasoning cơ bản về quy định, thủ tục",
+      "expected_response_time": "< 15s"
+    },
+    "hard": {
+      "count": 8,
+      "description": "Câu hỏi phức tạp cần full IRAC pipeline với scenario building, xử phạt, khiếu nại",
+      "expected_response_time": "< 30s"
+    }
+  },
+  "usage": {
+    "description": "File này chứa bộ câu hỏi test hệ thống tư vấn pháp lý dựa trên dữ liệu thực tế từ phapdien_db (topics, categories, documents) - Batch 4",
+    "how_to_use": [
+      "1. Import file JSON này vào test script",
+      "2. Lặp qua từng câu hỏi và gửi đến API /api/chat/gemini",
+      "3. Kiểm tra response có đúng expected_features không",
+      "4. Đo thời gian phản hồi và so sánh với expected_response_time",
+      "5. Kiểm tra chất lượng câu trả lời (citations, confidence, format)",
+      "6. So sánh kết quả với các file test_questions khác để đánh giá tính nhất quán"
+    ],
+    "test_script_example": "python test_system.py --questions test_questions_4.json"
+  },
+  "data_source": {
+    "database": "phapdien_db",
+    "tables_used": ["topics", "categories", "documents"],
+    "note": "Các câu hỏi được tạo dựa trên dữ liệu thực tế từ database, bao gồm các văn bản về: tôn giáo, giao thông vận tải, thống kê, môi trường, hành chính tư pháp, an toàn thông tin, báo chí, và các lĩnh vực khác"
+  }
+}
+

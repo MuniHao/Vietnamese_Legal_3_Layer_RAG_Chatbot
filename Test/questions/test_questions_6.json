@@ -1,0 +1,65 @@
+{
+  "description": "Bộ câu hỏi test hệ thống tư vấn pháp lý từ dễ đến phức tạp - Dựa trên dữ liệu thực tế từ phapdien_db (Batch 5)",
+  "version": "5.0",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vùng biển đặc quyền kinh tế nước ta rộng bao nhiêu hải lý",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi về định nghĩa/quy định cơ bản"
+    },
+    {
+      "id": 2,
+      "question": "1+1= mấy",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi về định nghĩa/quy định cơ bản"
+    },
+    {
+      "id": 3,
+      "question": "Luật 32/2004/QH11 An ninh Quốc gia có hiệu lực từ khi nào?",
+      "difficulty": "easy",
+      "category": "factual",
+      "expected_features": ["factual_detection", "direct_answer"],
+      "description": "Câu hỏi về định nghĩa/quy định cơ bản"
+    }
+  ],
+  "test_categories": {
+    "easy": {
+      "count": 3,
+      "description": "Câu hỏi thực tế đơn giản về thông tin văn bản, không cần IRAC framework",
+      "expected_response_time": "< 5s"
+    },
+    "medium": {
+      "count": 9,
+      "description": "Câu hỏi pháp lý cần IRAC reasoning cơ bản về quy định, thủ tục",
+      "expected_response_time": "< 15s"
+    },
+    "hard": {
+      "count": 8,
+      "description": "Câu hỏi phức tạp cần full IRAC pipeline với scenario building, xử phạt, khiếu nại",
+      "expected_response_time": "< 30s"
+    }
+  },
+  "usage": {
+    "description": "File này chứa bộ câu hỏi test hệ thống tư vấn pháp lý dựa trên dữ liệu thực tế từ phapdien_db (topics, categories, documents) - Batch 5",
+    "how_to_use": [
+      "1. Import file JSON này vào test script",
+      "2. Lặp qua từng câu hỏi và gửi đến API /api/chat/gemini",
+      "3. Kiểm tra response có đúng expected_features không",
+      "4. Đo thời gian phản hồi và so sánh với expected_response_time",
+      "5. Kiểm tra chất lượng câu trả lời (citations, confidence, format)",
+      "6. So sánh kết quả với các file test_questions khác để đánh giá tính nhất quán"
+    ],
+    "test_script_example": "python test_system.py --questions test_questions_5.json"
+  },
+  "data_source": {
+    "database": "phapdien_db",
+    "tables_used": ["topics", "categories", "documents"],
+    "note": "Các câu hỏi được tạo dựa trên dữ liệu thực tế từ database, bao gồm các văn bản về: bảo hiểm, xây dựng nhà ở, kế toán kiểm toán, giáo dục đào tạo, tổ chức chính trị xã hội, khoa học công nghệ, an ninh quốc gia, và các lĩnh vực khác"
+  }
+}
+

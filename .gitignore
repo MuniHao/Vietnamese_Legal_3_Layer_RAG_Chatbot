@@ -1,0 +1,52 @@
+# ==============================
+# ENV
+# ==============================
+.env
+config.env
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+Embeddings_Create/embedding_errors.json
+Embeddings_Create/embeddings_log.txt
+
+# ==============================
+# Test results
+# ==============================
+Test/results/
+Test/system_evaluation_*.json
+Test/system_evaluation_report_*.txt
+
+# ==============================
+# Flutter / Dart
+# ==============================
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+LawApp/android/.gradle/
+LawApp/android/build/
+
+# ==============================
+# MacOS
+# ==============================
+.DS_Store
+
+# ==============================
+# Data folders (KHÔNG PUSH)
+# ==============================
+Data/
+BoPhapDienDienTu/
+Ba*Data*/
